@@ -1,0 +1,12 @@
+{
+    "name": "iron wall",
+    "description": "the iron wall is slightly stronger in strength than tin wall",
+    "type": "Wall",
+    "health": 690,
+    "size": 1,
+    "requirements": [
+        { "item": "iron", "amount": 8}
+        ],
+        "category": "defense",
+        "research": "copper-wall"
+}

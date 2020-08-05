@@ -1,0 +1,12 @@
+{
+    "name": "tin wall",
+    "description": "the tin wall is slightly stronger in strength than titanium wall",
+    "type": "Wall",
+    "health": 510,
+    "size": 1,
+    "requirements": [
+        { "item": "tin", "amount": 8}
+        ],
+        "category": "defense",
+        "research": "copper-wall"
+}

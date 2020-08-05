@@ -1,0 +1,26 @@
+{
+    "type": "GenericSmelter",
+    "name": "vanadium-plant",
+    "description": "vanadium ingot plant",
+    "outputItem": {"item": "vanadium-ingot", "amount": 1},
+    "size": 2,
+    "hasPower": true,
+    "hasItems": true,
+    "hasLiquids": true,
+    "craftTime": 140,
+    "updateEffect": "redgeneratespark",
+    "consumes": {
+        "power": 0.2,
+        "liquid": {
+                "liquid": "liquid-vanadium", "amount": 2 
+        }
+    },
+    "requirements": [
+        {"item": "graphite", "amount": 20 },
+        {"item": "iron-ingot", "amount": 10 }
+        ],
+        "category": "crafting",
+        "research": "iron-smelter",
+        "idleSounds": "respawning",
+        "idleSoundVolume": 0.3
+}

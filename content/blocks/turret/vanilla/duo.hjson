@@ -1,0 +1,17 @@
+ammo: {
+	copper: standardCopper
+	graphite: standardDense
+	pyratite: standardIncendiary
+	silicon: standardHoming
+	snow: {
+		speed: 5
+		damage: 1
+		status:freezing
+		bulletWidth: 14
+		bulletHeight: 8
+		backColor: f7f7f7
+		frontColor: f2f2f2
+		shootEffect: none
+		smokeEffect: none
+	}
+}

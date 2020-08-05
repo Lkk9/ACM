@@ -1,0 +1,9 @@
+{
+    "type": "resource",
+    "name": "violet gem",
+    "description": "incredibly difficult to obtain item",
+    "hardness": 20,
+    "cost": 2.0,
+    "color":"#b672ef",
+    "tier": 2
+}

@@ -1,0 +1,5 @@
+type: resource
+name:"lignite"
+description: "Fossil brown wood, which retains the anatomical structure of plants, tissues, and looks similar to unaltered wood."
+flammability: 0.45
+color: "#bf5c6c"

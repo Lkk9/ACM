@@ -1,0 +1,38 @@
+type: GenericCrafter
+name: "plastanium factory"
+description: "produces plastanium from flint , coal and some slag"
+itemCapacity: 20
+outputItem: {
+  item: plastanium
+  amount: 1
+}
+size: 2
+hasPower: true
+hasLiquids: false
+craftTime: 140
+updateEffect:plasticburn
+consumes: {
+liquid:{
+    liquid: slag
+    amount: 0.02
+}
+	items: {
+		items: [
+			flint/1
+			coal/2
+		]
+	}
+	power: 0.9
+}
+requirements: [
+  tin-ingot/90
+  graphite/60
+  silicon/50
+  titanium/80
+]
+category: crafting
+research: lead-factory
+idleSound: respawning
+idleSoundVolume: 0.03
+
+

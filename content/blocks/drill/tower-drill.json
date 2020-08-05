@@ -1,0 +1,24 @@
+{
+	"name": "tower drill",
+	"description": "good middle class drill",
+	"type": "Drill",
+	"size": 2,
+	"tier": 2,
+	"drillTime":800,
+	"liquidBoostIntensity": 1.8,
+	"consumes":{
+    "liquid": {
+		"liquid": "water",
+		"amount": 0.0666666667,
+		"booster": true,
+		"optional": true
+	}
+	
+	},
+	"requirements": [
+		{ "item": "lead", "amount": 11 }
+	],
+	"rotateSpeed": 1.7,
+	"category": "production",
+	"alwaysUnlocked": true
+}

@@ -1,0 +1,27 @@
+{
+	"name": "bullfinch Factory",
+	"description": "creates drones bullfinch",
+	"type": "UnitFactory",
+	"unitType": "bullfinch",
+	"size": 3,
+	"health" : 380,
+	"produceTime": 440,
+	"consumes": {
+		"power": 0.5,
+		"items": {
+			"items": [
+				{"item": "vanadium-ingot", "amount": 2},
+				{"item": "silicon", "amount": 15}
+			]
+		}
+	},
+	"category": "units",
+	"research": "revenant-factory",
+	"requirements": [
+		{ "item": "iron-ingot", "amount": 170 },
+		{ "item": "tin-ingot", "amount": 170 },
+		{ "item": "battery", "amount": 5 },
+		{ "item": "plastanium", "amount": 120 },
+		{ "item": "surge-alloy", "amount": 60 }
+	]
+}

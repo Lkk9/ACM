@@ -1,0 +1,25 @@
+type: UnitFactory
+localizedName: eruptor factory
+description: created eruptor units
+health: 360
+produceTime: 1110
+maxSpawn: 4
+unitType: eruptor
+hasPower: true
+itemCapacity: 40
+consumes: {
+  items: {
+    items: [
+    silicon/20
+    ]
+  }
+  power: 0.75
+}
+size: 3
+category: units
+requirements: [
+    thorium/50
+    silicon/65
+    graphite/45
+]
+research: titan-factory

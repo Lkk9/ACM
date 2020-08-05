@@ -1,0 +1,42 @@
+
+name: "vort manufactory"
+description: "uses hard-to-find materials to create [#35353f2]vort"
+hasItems: true
+hasPower: true
+itemCapacity: 15
+outputItem: {
+  item: vort
+  amount: 1
+}
+size: 4
+hasPower: true
+hasLiquids: true
+craftTime: 140
+updateEffect:generatespark
+consumes: {
+	items: {
+		items: [
+			metaglass/2
+			phase-fabric/1
+			blast-compound/1
+			titanium/2
+		]
+	}
+	power: 2.8
+	liquid:{
+	liquid: cryofluid
+	amount: 0.16666667
+	}
+}
+requirements: [
+  gilty/20
+  lead/230
+  silicon/110
+  surge-alloy/45
+]
+category: crafting
+research: alloy-smelter
+idleSound: respawning
+idleSoundVolume: 0.03
+
+

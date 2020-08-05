@@ -1,0 +1,40 @@
+{
+	"type": "itemTurret",
+	"name": "gooseberry",
+	"description": "powerful medium-range turret",
+	"targetAir": "true",
+	"health": 1000,
+	"size": 4,
+	"recoil" : 2,
+	"reload": 60,
+	"range": 170,
+	"ammoUseEffect": "shellEjectSmall",
+	"inaccuracy": 7,
+	"rotatespeed": 10,
+	"shots": 20,
+	"ammo": {
+	    "thorium": "standardThoriumBig",
+	    "pyratite": "standardIncendiaryBig",
+		"plastanium": {
+			"speed": 8,
+			"damage": 60,
+		//	"reloadMultiplier": 4,
+			"bulletWidth": 18.0,
+			"bulletHeight": 21.0,
+			"shootEffect": "hitBulletBig",
+			"smokeEffect": "shootBigSmoke",
+			"ammoMultiplier": 2,
+			"backColor": "#30fbc6",
+			"frontColor": "#16fbc6",
+			"status": "burning"
+		}
+	},
+	"requirements": [
+		{ "item": "tin-ingot", "amount": 700 },
+		{ "item": "magnetite", "amount": 5 },
+		{"item": "iron-ingot", "amount": 900},
+		{"item": "silicon", "amount": 500}
+	],
+	"category": "turret",
+	"research": "salvo"
+}

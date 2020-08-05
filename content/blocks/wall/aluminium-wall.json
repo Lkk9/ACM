@@ -1,0 +1,12 @@
+{
+    "name": "aluminium wall",
+    "description": "due to the elasticity of aluminum, any damage causes less damage to this wall",
+    "type": "Wall",
+    "health": 740,
+    "size": 1,
+    "requirements": [
+        { "item": "aluminium", "amount": 7}
+        ],
+        "category": "defense",
+        "research": "tin-wall"
+}

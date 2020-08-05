@@ -1,0 +1,41 @@
+{
+  //  "type": "GenericSmelter",
+    "name": "furew ingot factory",
+    "description": "produces the most valuable material - furew ",
+    "size": 6,
+    "outputItem":{"item": "furew","amount": 1},
+    "hasPower": true,
+    "hasLiqud": true,
+    "craftEffect": "pulverizeRedder",
+    "updateEffect": "pulverizeRedder",
+    "hasItem": true,
+    "flameColor": "00ff99",
+    "itemCapacity": 1,
+    "health": 1272,
+    "drawLiquidLight": "true",
+    "idleSound": "furF",
+    "idleSoundVolume": 1,
+    "requirements": [
+        {"item": "surge-alloy", "amount": 1000},
+        {"item": "graphite", "amount": 5000}
+        ],
+    "category": "crafting",
+    "research": "norium-setter",
+    "craftTime": 18000,
+    "consumes":{
+        "power": 500,
+
+    
+        "items":{
+            "items": [
+                {"item": "orange-gem", "amount": 1},
+                {"item": "lime-gem", "amount": 1},
+                {"item": "cyan-gem", "amount": 1},
+                {"item": "burgundy-gem", "amount": 1},
+                {"item": "Violet-gem", "amount":
+                1},
+                {"item": "nor", "amount": 1}
+                ]
+        }
+    }
+}

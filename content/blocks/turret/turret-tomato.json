@@ -1,0 +1,60 @@
+{
+	"type": "doubleTurret",
+	"name": "Niue",
+	"description": "powerful long-range turret",
+	"targetAir": "true",
+	"health": 1000,
+	"size": 3,
+	"recoil" : 9,
+	"reload": 130,
+	"range": 480,
+	"ammoUseEffect": "shellEjectSmall",
+	"inaccuracy": 0.5,
+	"rotatespeed": 2,
+	"shots": 2,
+	"ammo": {
+		"surge-alloy": {
+			"speed": 10,
+			"damage": 440,
+			"lifetime": 80,
+			"reloadMultiplier": 1,
+			"bulletWidth": 18.0,
+			"bulletHeight": 21.0,
+			"shootEffect": "hitBulletBig",
+			"smokeEffect": "shootBigSmoke",
+			"ammoMultiplier": 5,
+			"fragBullets":3,
+			"fragBullet": {
+			    "type": "BasicBulletType",
+			    "lightining": 2
+			}
+		},
+		
+		"tin": {
+		    "speed": 9.0,
+		    "lifetime": 80,
+		    "damage": 180,
+		    "ammoMiltiplier": 2,
+		    "bulletWidth": 17.0,
+		    "bulletHeigth": 21.0
+		},
+		
+		"graphite": {
+		    "speed": 9.0,
+		    "lifetime": 80,
+		    "damage": 375,
+		    "ammoMultiplier": 3,
+		    "bulletWidth": 17.0,
+		    "bulletHeigth": 21.0
+		    
+		}
+	},
+	"requirements": [
+		{ "item": "tin-ingot", "amount": 500 },
+		{ "item": "bronze", "amount": 200 },
+		{"item": "iron-ingot", "amount": 400},
+		{"item": "gilty", "amount": 50}
+	],
+	"category": "turret",
+	"research": "salvo"
+}

@@ -1,0 +1,30 @@
+type: MendProjector
+localizedName: electric ment projector
+description: improved ment projector
+health: 600
+range: 198
+size:2
+hasPower: true
+consumes: {
+  power: 3.6
+  items: {
+    items: [
+      phase-fabric/1
+    ]
+    booster: true
+    optional: true
+  }
+}
+category: effect
+requirements: [
+  lead/500
+  titanium/100
+  battery/10
+  silicon/80
+  magnetite/5
+]
+phaseBoost: 20
+phaseRangeBoost:55
+healpercent: 10
+useTime: 170
+research: mend-projector

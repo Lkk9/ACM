@@ -1,0 +1,42 @@
+{
+    "type": "dagger",
+    "name": "foor",
+    "health": 1750,
+    "mass": 40.0,
+    "speed": 0.2,
+	"hitsize": 36,
+    "maxVelocity": 0.8,
+	"rotatespeed": 0.1,
+	"attackLength": 110.0,
+    "drag": 0.01,
+    "shootCone": 20.0,
+    "flying": false,
+    "engineOffsetY": 50,
+    "engineSize": 5,
+	"baseRotateSpeed": 0.05,
+    "weapon": {
+        "reload": 39.0,
+        "alternate": false,
+        "shots": 2,
+        "inaccuracy": 6.0,
+        "shootSound": "shoot",
+        "bullet": {
+            "type": "BasicBulletType",
+		        "lifetime": 110,
+		        "smokeEffect": "none",
+		        "despawnEffect": "fire",
+		        "speed": 1.63,
+		        "status": "burning",
+		        "fragBullets": 3,
+		        "fragVelocityMin": 0.3,
+		        "fragVelocityMax": 2,
+		        "fragBullet": {
+	                "type": "liquidBulletType",
+		            "liquid": "oil",
+		            "lifetime": 110,
+		            "speed": 0.3,
+		            "damage": 30
+		        }
+		}
+    }
+}

@@ -1,0 +1,26 @@
+type: junction
+
+name: compatible junction
+description: this junction can spend liquids and items
+
+size: 1
+health: 40
+category: distribution
+research: junction
+
+requirements: [
+    titanium/4
+    lead/8
+    metaglass/4
+    graphite/2
+    
+]
+
+hasItems: true
+hasLiquids: true
+outputsLiquid: true
+outputsItem: true
+
+rotate: false
+speed: 28
+capacity: 6

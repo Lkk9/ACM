@@ -1,0 +1,17 @@
+{
+    "name": "train mech pad",
+    "description": "transform into the train mech",
+    "type": "MechPad",
+    "health": 800,
+    "mech": "train-mech",
+    "size": 2,
+    "consumes": {
+        "power": 1.5
+    },
+    "category": "upgrade",
+    "reserch": "duo",
+    "requirements": [
+        {"item": "vanadium-ingot", "amount": 50},
+        {"item": "iron-ingot", "amount": 200}
+        ]
+}

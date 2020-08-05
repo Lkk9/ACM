@@ -1,0 +1,27 @@
+{
+	"type": "flyingUnit",
+	"name": "wriut",
+	"description": "flying mini unit",
+	"speed": 0.12,
+	"flying": true,
+	"mass": 2,
+	"weaponOffSetY": 93,
+	"engineSize": 0.5,
+	"health": 60,
+	"range": 100,
+	"weapon": {
+		"name": "wriut-equip",
+		"reload": 40,
+		"recoil": 1.4,
+		"alternate": false,
+		"width": -1,
+		"bullet": {
+		    "type": "BasicBulletType",
+		    "hitEffect": "hitFuse",
+		    "lifetime": 100,
+		    "speed": 3,
+		    "damage": 5
+		    
+		}
+	}
+}

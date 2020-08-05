@@ -1,0 +1,40 @@
+{
+    "type": "powerTurret",
+    "name": "furew turret",
+    "description": "the most powerful turret capable of dealing massive damage at medium range",
+    "size": 6,
+    "hasPower": true,
+    "health": 5700,
+    "shootEffect": "purify",
+    "smokeEffect": "purifyoil",
+    "ammoUseEffect": "wet",
+    "range": 340,
+    "shootSound": "beam",
+    "recoil": 6,
+    "shootShake": 1,
+    "heatColor": "fffb99",
+    "powerUse": 1.333333,
+    "shootType":{
+        "type": "BasicBulletType",
+        "lifeTime": 1100,
+        "speed": 7,
+        "splashDamageRadius": 30,
+        "splashDamage": 200,
+        "frontColor": "ff0f09",
+        "backColor": "ff0f19",
+        "homingPower": 2,
+        "homingRange": 3,
+        "fragBullets": 4,
+        "fragBullet": {
+            "type":"liquidBulletType",
+            "liquid": "oil",
+            "lifetime": 35,
+            "speed": 0.5
+            }
+    },
+    "requirements":[
+        {"item": "furew", "amount": 1}
+        ],
+        "category": "turret",
+        "research": "salvo"
+}

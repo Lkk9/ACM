@@ -1,0 +1,39 @@
+type: genericCrafter
+name: "crystal stirrer"
+description: "converts crystals into gems by melting and mixing "
+hasItems: true
+update: true
+solid: true
+itemCapacity: 400
+outputItem: {
+  item: multi-crystal
+  amount: 1
+}
+size: 3
+hasPower: true
+hasLiquids: true
+craftTime: 430
+updateEffect:generatespark
+consumes: {
+	items: {
+		items: [
+			blue-crystal/200
+			red-crystal/200
+			green-crystal/200
+		]
+	}
+	power: 8.7
+}
+requirements: [
+  plastanium/140
+  copper/440
+  silicon/100
+  magnetite/5
+  aluminium/280
+]
+category: crafting
+research: alloy-smelter
+idleSound: respawning
+idleSoundVolume: 0.03
+
+

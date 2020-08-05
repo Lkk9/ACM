@@ -1,0 +1,30 @@
+type: GenericCrafter
+name: lead factory
+description: mix copper and scrap metal to get lead
+itemCapacity: 15
+outputItem: {
+  item:lead
+  amount: 3
+}
+size: 2
+hasPower: false
+hasLiquids: false
+craftTime: 120
+updateEffect:generatespark
+consumes: {
+	items: {
+		items: [
+			copper/2
+			scrap/1
+		]
+	}
+}
+requirements: [
+  copper/40
+]
+category: crafting
+research: kiln
+idleSound: respawning
+idleSoundVolume: 0.03
+
+

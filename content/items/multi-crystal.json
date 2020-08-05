@@ -1,0 +1,11 @@
+{
+    "type": "resource",
+    "name": "multi crystal",
+    "description": "alloy from a large concentrate of all crystals",
+    "hardness": 8,
+    "radioactivity": 0.5,
+    "explosiveness": 0.6,
+    "flammability": 0.7
+    "cost": 2.0,
+    "color": "#df6fc0",
+}

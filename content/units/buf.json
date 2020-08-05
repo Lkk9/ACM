@@ -1,0 +1,39 @@
+{
+	"type": "groundUnit",
+	"name": "buff",
+	"description": "ground unit",
+	"speed": 0.05,
+	"flying": false,
+	"mass": 34,
+	"hitsize": 10,
+	//"hitsizeTile": 7.5,
+	"weaponOffsetY": -2,
+	"health": 4000,
+	"range": 38,
+	"weapon": {
+		"name": "dud7-equip",
+		"damage": 100,
+		"reload": 45,
+		"shots": 2,
+		"spacing": 0,
+		"inaccuracy": 0,
+	//	"lengthRand": 9,
+		"shotDelay": 9,
+		"length": 6,
+		"width": 14.6,
+		"alternate": true,
+		"bullet": {
+		    "type": "BasicBulletType",
+		    "frontColor": "00ff00",
+		    "backColor": "11ff11",
+		    "hitEffect": "hitFuse",
+		    "lifetime": 40,
+		    "speed": 4,
+		    "splashDamageRadius": 5,
+		    "homingPower": 100,
+		    "homingRange": 5,
+		    "damage": 20
+		    
+		}
+	}
+}

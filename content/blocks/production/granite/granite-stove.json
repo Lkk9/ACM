@@ -1,0 +1,30 @@
+{
+	"type": "GenericCrafter",
+	"name": "granite stove",
+	"description": "able to melt granite",
+	"liquidCapacity": 100,
+	"outputLiquid": {"liquid": "fused-granite", "amount": 2},
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": true,
+	"craftTime": 90,
+	"health" : 270,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 1.2,
+		"items": {
+			"items": [
+				{ "item": "granite", "amount": 2 }
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "iron-ingot", "amount": 110 },
+		{ "item": "graphite", "amount": 90 },
+		{ "item": "metaglass", "amount": 60 }
+	],
+	"category": "crafting",
+	"research": "iron-smelter",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.03
+}

@@ -1,0 +1,21 @@
+ammo:{
+	graphite: standardDenseBig
+	pyratite: standardIncendiaryBig
+	thorium: standardThoriumBig
+	debasite: {
+	    ammoMultiplier: 6
+	    knockback: 1
+		speed: 6
+		damage: 67
+		incendAmount: 1.3
+		incendSpread: 0.1
+		incendChance: 0.33
+		bulletWidth: 8.5
+		bulletHeight: 8.5
+		backColor: d62032
+		frontColor: 9e283d
+		shootEffect: shootSmall
+		smokeEffect: shootSmallSmoke
+		}
+	
+}

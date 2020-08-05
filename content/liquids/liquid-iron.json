@@ -1,0 +1,10 @@
+{
+	"name": "Liquid iron",
+	"description": "get from iron",
+	"temperature": 0.9,
+	"flammability" : 0,
+	"explosiveness" : 0,
+	"flameColor" : 555555,
+    "viscosity": 0.3,
+    "color": 555555
+}

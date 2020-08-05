@@ -1,0 +1,32 @@
+type: GenericCrafter
+name: "vanadium kiln"
+description: "produces vanadium from iron and feldspar"
+itemCapacity: 320
+outputItem: {
+  item: vanadium-ingot
+  amount: 1
+}
+size: 2
+hasPower: true
+hasLiquids: false
+craftTime: 450
+updateEffect:pulverizeRedder
+consumes: {
+	items: {
+		items: [
+			feldspar/20
+			iron/160
+		]
+	}
+	power: 7
+}
+requirements: [
+  iron-ingot/180
+  titanium/70
+]
+category: crafting
+research: vanadium-plant
+idleSound: respawning
+idleSoundVolume: 0.03
+
+

@@ -1,0 +1,9 @@
+{
+    "type": "resource",
+    "name": "cyan gem",
+    "description": "incredibly difficult to obtain item",
+    "hardness": 20,
+    "cost": 2.0,
+    "color":"#4dcdd1",
+    "tier": 2
+}

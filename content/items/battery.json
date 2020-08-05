@@ -1,0 +1,9 @@
+{
+    "type": "material",
+    "name": "battery",
+    "description": "here everything is clear",
+    "hardness": 6,
+    "cost": 2.0,
+    "color":"#4BO0082",
+    "tier": 2
+}

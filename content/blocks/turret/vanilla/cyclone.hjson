@@ -1,0 +1,82 @@
+ammo: {
+    metaglass:flakGlass
+    blast-compound:flakExplosive
+    plastanium:flakPlastic
+    surge-alloy:flakSurge
+	debasite: {
+	    ammoMultiplier: 10
+	    knockback: 1
+		speed: 5.5
+		damage: 6
+		incendAmount: 1.3
+		incendSpread: 0.1
+		incendChance: 0.33
+		bulletWidth: 8
+		bulletHeight: 8
+		backColor: d62032
+		frontColor: 9e283d
+		shootEffect: shootSmall
+		smokeEffect: shootSmallSmoke
+		fragBullets: 3
+		fragBullet:{
+		type: BasicBulletType
+		speed: 6.8
+		damage: 3
+		backColor: fff5f5
+		frontColor: fffefe
+		}
+	}
+gilty: {
+	    ammoMultiplier: 5
+	    knockback: 1.2
+		speed: 4
+		damage: 11
+		homingPower: 1.4
+		homingRange: 100
+		bulletWidth: 8.5
+		bulletHeight: 8.5
+		backColor: f23535
+		frontColor: ff8985
+		shootEffect: shootSmall
+		smokeEffect: shootSmallSmoke
+		fragBullets: 1
+		fragBullet:{
+		type: BasicBulletType
+	    knockback: 1.2
+		speed: 4
+		damage: 11
+		homingPower: 1.4
+		homingRange: 100
+		bulletWidth: 8.5
+		bulletHeight: 8.5
+		backColor: f23535
+		frontColor: ff8985
+		fragBullets: 1
+		fragBullet:{
+		type: BasicBulletType
+	    knockback: 1.2
+		speed: 4
+		damage: 11
+		homingPower: 1.4
+		homingRange: 100
+		bulletWidth: 8.5
+		bulletHeight: 8.5
+		backColor: f23535
+		frontColor: ff8985
+		fragBullets: 1
+		fragBullet:{
+		type: BasicBulletType
+	    knockback: 1.2
+		speed: 4
+		damage: 11
+		homingPower: 1.4
+		homingRange: 100
+		bulletWidth: 8.5
+		bulletHeight: 8.5
+		backColor: f23535
+		frontColor: ff8985
+		}
+		}
+		}
+		}
+}

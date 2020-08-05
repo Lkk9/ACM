@@ -1,0 +1,18 @@
+{
+    "name": "mou mech pad",
+    "description": "transform into the mou mech",
+    "type": "MechPad",
+    "health": 810,
+    "mech": "mou-mech",
+    "size": 3,
+    "consumes": {
+        "power": 2.3
+    },
+    "category": "upgrade",
+    "reserch": "duo",
+    "requirements": [
+        {"item": "vanadium-ingot", "amount": 75},
+        {"item": "iron-ingot", "amount": 230},
+        {"item": "aluminium", "amount": 200 }
+        ]
+}

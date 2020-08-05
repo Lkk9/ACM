@@ -1,0 +1,26 @@
+{
+	"name": "dove Factory",
+	"description": "creates drones dove",
+	"type": "UnitFactory",
+	"unitType": "dove",
+	"size": 2,
+	"health" : 280,
+	"maxSpawn": 30,
+	"produceTime": 290,
+	"consumes": {
+		"power": 0.4,
+		"items": {
+			"items": [
+				{"item": "vanadium-ingot", "amount": 1},
+				{"item": "silicon", "amount": 10}
+			]
+		}
+	},
+	"category": "units",
+	"research": "ghoul-factory",
+	"requirements": [
+		{ "item": "iron-ingot", "amount": 90 },
+		{ "item": "tin-ingot", "amount": 50 },
+		{ "item": "battery", "amount": 3 }
+	]
+}

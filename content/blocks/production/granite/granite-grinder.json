@@ -1,0 +1,41 @@
+{
+    "type": "separator",
+    "name": "granite grinder",
+    "description": "processes granite into various minerals",
+        "results": [
+            {"item": "quartz", "amount": 13},
+            {"item": "copper", "amount":30},
+            {"item": "feldspar", "amount": 30},
+            {"item": "lead", "amount": 30},
+            {"item": "graphite", "amount": 14},
+            {"item": "iron", "amount":30},
+            {"item": "tin", "amount": 30},
+            {"item": "silicon", "amount": 12},
+            {"item": "scrap", "amount": 34},
+            {"item": "aluminium", "amount": 28},
+            {"item": "sand", "amount": 42},
+            {"item": "granite", "amount": 14}
+            ],
+    "size": 3,
+    "hasPower": true,
+    "hasItems": true,
+    "hasLiquids": true,
+    "itemCapacity": 20,
+    "craftTime": 90,
+    "updateEffect": "smeltsmoke",
+    "consumes": {
+        "power": 1.6666667,
+        "liquid": {
+            "liquid":  "fused-granite", "amount": 0.01
+        }
+    },
+    "requirements": [
+        {"item": "graphite", "amount": 30 },
+        {"item": "lead", "amount": 80 },
+        {"item": "bronze", "amount": 50 }
+        ],
+        "category": "crafting",
+        "research": "alloy-smelter",
+        "idleSounds": "machine",
+        "idleSoundVolume": 0.08
+}

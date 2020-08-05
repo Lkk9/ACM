@@ -1,0 +1,5 @@
+type:resource
+name: granite
+description: common mineral
+hardness: 3
+color: c2b5ac

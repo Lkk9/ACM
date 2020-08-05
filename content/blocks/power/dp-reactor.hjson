@@ -1,0 +1,30 @@
+type: ImpactReactor
+name: dual purpose reactor
+description: uses two fuels efficiently to produce large amounts of energy
+size: 5
+hasPower: true
+hasItems: true
+itemCapacity: 15
+itemDuration: 135
+powerProduction: 223
+consumes: {
+  power: 46.6666667
+  liquid: cryofluid/0.3
+  items: {
+    items: [
+      debasite/1
+      graphite/2
+    ]
+    optional: false
+  }
+}
+requirements: [
+  lead/800
+  metaglass/600
+  lithium/700
+  battery/120
+  gilty/250
+  iron-ingot/600
+]
+category: power
+research: impact-reactor

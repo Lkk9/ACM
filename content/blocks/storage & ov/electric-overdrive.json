@@ -1,0 +1,34 @@
+{
+	"name": "electric overdrive projector",
+	"description": "improved overdrive projector",
+	"type": "OverdriveProjector",
+	"health": 301,
+	"size": 2,
+	"range": 50,
+	"reload": 20,
+	"speedBoost": 1.9,
+	"speedBoostPhase": 1.2,
+	"phaseRangeBoost":10,
+	"useTime": 800,
+	"phase": "#720874",
+	"color": "#17C50B",
+	"healPercent": 20,
+	"consumes": {
+		"power": 2.3,
+		"items": {
+			"items": [ 
+			    { "item": "phase-fabric", "amount": 1 }
+			    ],
+			"booster": true,
+			"optional": true
+		}
+	},
+	"requirements": [
+		{ "item": "magnetite", "amount": 5 },
+		{ "item": "graphite", "amount": 200 },
+		{ "item": "plastanium", "amount": 100 },
+		{ "item": "copper", "amount": 2000 }
+	],
+	"category": "effect",
+	"research": "overdrive-projector"
+}

@@ -1,0 +1,21 @@
+type: UnitFactory
+localizedName: furew unit factory
+description: creates the most powerful and almost invulnerable unit
+health: 10000
+produceTime: 37
+maxSpawn: 1
+unitType: solter
+hasPower: false
+itemCapacity: 5
+consumes: {
+  items: {
+    items: [
+    ]
+  }
+}
+size: 1
+category: units
+requirements: [
+  furew/2
+]
+research: dagger-factory

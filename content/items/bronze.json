@@ -1,0 +1,9 @@
+{
+    "type": "material",
+    "name": "bronze",
+    "description": "tin and copper alloy",
+    "hardness": 4,
+    "cost": 2.0,
+    "color":"#FFFFA971",
+    "tier": 2
+}

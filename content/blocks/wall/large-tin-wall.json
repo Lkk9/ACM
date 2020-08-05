@@ -1,0 +1,12 @@
+{
+    "name": "large tin wall",
+    "description": "the tin wall is slightly stronger in strength than large titanium wall",
+    "type": "Wall",
+    "health": 2140,
+    "size": 2,
+    "requirements": [
+        { "item": "tin", "amount": 31 }
+        ],
+        "category": "defense",
+        "research": "tin-wall"
+}

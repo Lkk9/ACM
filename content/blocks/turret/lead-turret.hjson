@@ -1,0 +1,43 @@
+type: itemTurret
+name: lead turret
+description: uses lead and scrap metal for firing at ground units
+size: 1
+health: 250
+heatColor: ff991d
+range: 80
+targetAir:false
+reload:30
+recoil:1.1
+inaccuracy:0.9
+shots: 4
+ammo: {
+	scrap:{
+ammoMultiplier: 2
+	    knockback: 0
+		speed: 5.5
+		damage: 2
+		bulletWidth: 2
+		bulletHeight: 2
+		backColor: efefef
+		frontColor: 7f7f7f
+		shootEffect: shootSmall
+		smokeEffect: shootSmallSmoke
+	}
+	lead:{
+ammoMultiplier: 2
+	    knockback: 0
+		speed: 5.5
+		damage: 2.5
+		bulletWidth: 2
+		bulletHeight: 2
+		backColor: efefef
+		frontColor: 7f7f7f
+		shootEffect: shootSmall
+		smokeEffect: shootSmallSmoke
+	}
+}	
+category:turret
+research:duo
+requirements:[
+    lead/30
+]

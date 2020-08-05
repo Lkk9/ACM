@@ -1,0 +1,31 @@
+type: GenericSmelter
+name: "coal compressor"
+description: "compresses 2 brown coal into 1 bituminous coal"
+itemCapacity: 15
+outputItem: {
+  item: coal
+  amount: 1
+}
+size: 2
+hasPower: true
+hasLiquids: false
+craftTime: 145
+craftEffect:formsmoke
+consumes: {
+power: 0.24
+	items: {
+		items: [
+			brown-coal/2
+		]
+	}
+}
+requirements: [
+  lead/25
+  tin/10
+]
+category: crafting
+alwaysUnlocked: true
+idleSound: respawning
+idleSoundVolume: 0.03
+
+

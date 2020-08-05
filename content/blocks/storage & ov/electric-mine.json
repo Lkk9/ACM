@@ -1,0 +1,27 @@
+{
+    "type": "shockMine",
+    
+    "name": "electric mine",
+    "description": "this is mine",
+    
+    "hasShadow": false,
+    
+    "cooldown": 70,
+    "tileDamage": 20,
+    "damage": 25,
+    "lenght": 10,
+    "tendrils": 7,
+    
+    "requirements": [
+        
+        {"item": "silicon", "amount": 55},
+        {"item": "lithium", "amount": 73}
+        
+        ],
+    
+    "size": 1,
+    "health": 50,
+    
+    "category": "effect",
+    "research": "shock-mine"
+}

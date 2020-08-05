@@ -1,0 +1,32 @@
+{
+	"type": "SingleTypeGenerator",
+	"name": "internal combustion generator",
+	"description": "this generator produces a little more energy than steam generator",
+	"itemCapacity": 20,
+	"size": 3,
+	"hasLiquids": true,
+    "powerProduction": 7,
+    "itemDuration" : 100,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+	    "liquid": {
+	        "liquid": "water", "amount": 0.2
+	    },
+		"items": {
+		    "items": [
+		        {"item": "coal", "amount": 2}
+		        ],
+		        "optional": true
+		}
+		
+    },
+	"requirements": [
+		{"item": "titanium", "amount": 90},
+		{"item": "copper", "amount": 300},
+		{"item": "graphite", "amount": 110}
+	],
+	"category": "power",
+	"research": "combustion-generator",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

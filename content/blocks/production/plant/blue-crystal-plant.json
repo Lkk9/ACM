@@ -1,0 +1,30 @@
+{
+    "type": "GenericCrafter",
+    "name": "blue crystal plant",
+    "description": "creates blue crystal",
+    "outputItem": {"item": "blue-crystal", "amount": 1},
+    "size": 2,
+    "hasPower": true,
+    "hasItems": true,
+    "itemCapacity": 10,
+    "craftTime": 100,
+    "updateEffect": "redgeneratespark",
+    "consumes": {
+        "power": 0.2,
+        "items": {
+            "items": [
+                {"item": "titanium", "amount":1},
+                {"item": "tin", "amount": 1 }
+                ]
+        }
+    },
+    "requirements": [
+        {"item": "silicon", "amount": 50 },
+        {"item": "tin-ingot", "amount": 100 },
+        {"item": "surge-alloy", "amount": 20 }
+        ],
+        "category": "crafting",
+        "research": "alloy-smelter",
+        "idleSounds": "respawning",
+        "idleSoundVolume": 0.05
+}

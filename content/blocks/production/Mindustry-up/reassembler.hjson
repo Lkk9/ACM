@@ -1,0 +1,30 @@
+type: GenericCrafter
+name: reassembler
+description: use one lead to make one scrap
+itemCapacity: 5
+outputItem: {
+  item: scrap
+  amount: 1
+}
+size: 1
+hasPower: false
+hasLiquids: false
+craftTime: 90
+updateEffect:generatespark
+consumes: {
+	items: {
+		items: [
+			lead/1
+		]
+	}
+	power: 0.05
+}
+requirements: [
+  copper/15
+]
+category: crafting
+research: melter
+idleSound: respawning
+idleSoundVolume: 0.03
+
+

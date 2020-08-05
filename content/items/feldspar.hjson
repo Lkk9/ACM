@@ -1,0 +1,5 @@
+type:resource
+name: feldspar
+description: a group of widespread, in particular, rock-forming minerals from the class of silicates.
+hardness: 3
+color: cb772d

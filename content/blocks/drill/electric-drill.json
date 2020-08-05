@@ -1,0 +1,23 @@
+{
+	"name": "electric drill",
+	"description": "in speed of digging exceeds the air drilling rig, but requires a lot of energy",
+	"type": "Drill",
+	"size": 3,
+	"tier": 8,
+	"drillTime":80,
+	"consumes": {
+		"power": 15 ,
+		"liquid" : {
+			"liquid": "water", 
+			"amount": 0.1
+		}
+	},
+	"requirements": [
+		{ "item": "battery", "amount": 10 },
+		{ "item": "silicon", "amount": 70 },
+		{ "item": "titanium", "amount": 200 },
+		{ "item": "iron-ingot", "amount": 70 }
+	],
+	"category": "production",
+	"research": "laser-drill"
+}

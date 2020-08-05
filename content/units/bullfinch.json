@@ -1,0 +1,16 @@
+{
+	"type": "flyingUnit",
+	"name": "bullfinch",
+	"description": "flying unit",
+	"speed": 0.1,
+	"flying": true,
+	"health": 160,
+	"range": 170,
+	"weapon": {
+		"name": "bullfinchgun",
+		"damage": 30,
+		"reload": 20,
+		"alternate": false,
+		"bullet": "missileExplosive"
+	}
+}

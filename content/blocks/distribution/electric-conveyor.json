@@ -1,0 +1,15 @@
+{
+	"type": "Conveyor",
+	"name": "electric conveyor",
+	"description": "faster than titanium but requires battery",
+	"requirements": [
+		{"item": "battery", "amount": 1},
+		{"item": "copper", "amount": 3},
+		{"item": "lead", "amount": 3},
+		{"item": "tin-ingot", "amount": 2}
+	],
+	"category": "distribution",
+	"speed": 0.15,
+	"health" : 80,
+	"research": "titanium-conveyor"
+}

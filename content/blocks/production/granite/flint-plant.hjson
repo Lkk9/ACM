@@ -1,0 +1,33 @@
+type: GenericCrafter
+name: "flint plant"
+description: "produces flint from iron and granite"
+itemCapacity: 20
+outputItem: {
+  item: flint
+  amount: 1
+}
+size: 2
+hasPower: true
+hasLiquids: false
+craftTime: 120
+updateEffect: none
+consumes: {
+	items: {
+		items: [
+			granite/1
+			iron/1
+		]
+	}
+	power: 0.7
+}
+requirements: [
+  lead/60
+  copper/70
+  silicon/30
+]
+category: crafting
+research: copper-factory
+idleSound: respawning
+idleSoundVolume: 0.03
+
+

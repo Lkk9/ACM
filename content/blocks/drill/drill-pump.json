@@ -1,0 +1,55 @@
+{
+    "type": "separator",
+    "name": "drill pump",
+    "description": "extracts resources regardless of their location, requires water to wash ores and energy to operate a drill",
+        "results": [
+            {"item": "copper", "amount": 90},
+            {"item": "lead", "amount": 90 },
+            {"item": "iron", "amount": 80 },
+            {"item": "tin", "amount": 75 },
+            {"item": "titanium", "amount": 40 },
+            {"item": "thorium", "amount":  25},
+            {"item": "sand", "amount": 85 },
+            {"item": "coal", "amount": 80  },
+            {"item": "aluminium", "amount": 65},
+            {"item": "lithium", "amount": 65  },
+            {"item": "granite", "amount":70 },
+            {"item": "scrap", "amount": 75 },
+            {"item": "graphite", "amount": 15},
+            {"item": "silicon", "amount": 15 },
+            {"item": "feldspar", "amount":30 },
+            {"item": "quartz", "amount":10  },
+            {"item": "flint", "amount": 35},
+            {"item": "uran", "amount":5 },
+            {"item": "magnetite", "amount": 8 }
+         /*   {"item": "", "amount":  },
+            {"item": "", "amount": },
+            {"item": "", "amount":  },
+            {"item": "", "amount": },
+            {"item": "", "amount":  },
+            {"item": "", "amount": },
+            {"item": "", "amount":  }*/
+            ],
+    "size": 6,
+    "hasPower": true,
+    "hasItems": true,
+    "hasLiquids": true,
+    "itemCapacity": 1000,
+    "craftTime": 8.7,
+    "updateEffect": "smeltsmoke",
+    "consumes": {
+        "liquid": {
+            "liquid": "water",
+            "amount": 0.44
+            
+        },
+        "power": 23.5
+    },
+    "requirements": [
+        {"item": "furew", "amount": 1 }
+        ],
+        "category": "production",
+        "research": "laser-drill",
+        "idleSounds": "machine",
+        "idleSoundVolume": 0.09
+}

@@ -1,0 +1,9 @@
+{
+    "type": "resource",
+    "name": "blue crystal",
+    "description": "valuable, hard to reach metal",
+    "hardness": 10,
+    "cost": 2.0,
+    "color":"#81b3ea",
+    "tier": 2
+}

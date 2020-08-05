@@ -1,0 +1,9 @@
+{
+    "type": "resource",
+    "name": "green gem",
+    "description": "incredibly difficult to obtain item",
+    "hardness": 20,
+    "cost": 2.0,
+    "color":"#7de879",
+    "tier": 2
+}

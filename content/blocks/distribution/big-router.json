@@ -1,0 +1,16 @@
+{
+    "type": "router",
+    "name": "big router",
+    "description": "a simple router (4x4)",
+    "health": 40,
+    "size": 4,
+    "group": "transportation",
+    "itemCapacity": 10,
+    "category": "distribution",
+	"requirements": [
+		{"item": "lead", "amount": 10},
+		{"item": "copper", "amount": 10},
+		{"item": "graphite", "amount": 3}
+		],
+		"research": "distributor"
+}

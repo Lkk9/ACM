@@ -1,0 +1,35 @@
+
+name: lignite plant
+description: squeezes sand with spore pods to obtain lignite
+itemCapacity: 20
+outputItem: {
+  item: lignite
+  amount: 3
+}
+size: 3
+hasPower: true
+hasLiquids: false
+craftTime: 60
+craftEffect:producesmoke
+consumes: {
+power: 0.3
+	items: {
+		items: [
+			sand/1
+			spore-pod/1
+		]
+	}
+}
+requirements: [
+  copper/20
+  lead/30
+  graphite/7
+  iron/10
+  tin/10
+]
+category: crafting
+alwaysUnlocked: true
+idleSound: respawning
+idleSoundVolume: 0.03
+
+

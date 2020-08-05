@@ -1,0 +1,37 @@
+{
+    "type": "separator",
+    "name": "gem separator",
+    "description": "randomly generates several gems from crystal water",
+        "results": [
+            {"item": "cyan-gem", "amount": 20},
+            {"item": "lime-gem", "amount": 20},
+            { "item": "orange-gem", "amount": 20},
+            {"item": "Violet-gem", "amount": 20},
+            { "item": "burgundy-gem", "amount": 20}
+            ],
+    "size": 2,
+    "hasPower": true,
+    "hasItems": true,
+    "hasLiquids": true,
+    "itemCapacity": 10,
+    "craftTime": 670,
+    "updateEffect": "smeltsmoke",
+    "consumes": {
+        "power": 3,
+        "liquid": {
+            "liquid": "crystal-water",
+            "amount": 0.00149253731
+        }
+    },
+    "requirements": [
+        {"item": "aluminium", "amount": 120 },
+        {"item": "tin-ingot", "amount": 200 },
+        {"item": "bronze", "amount": 90 },
+        {"item": "lead", "amount": 160 },
+        {"item": "vort", "amount": 15 }
+        ],
+        "category": "crafting",
+        "research": "melter",
+        "idleSounds": "machine",
+        "idleSoundVolume": 0.09
+}

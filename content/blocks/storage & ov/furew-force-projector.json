@@ -1,0 +1,35 @@
+{
+    "type": "ForceProjector",
+    "name": "furew Force Projector",
+    "description": "the most powerful force projector",
+    "size": 4,
+    "health": 2000,
+    "radius": 290,
+    "speedBoost": 2,
+    "phaseRangeBoost": 280,
+    "phaseUseTime": 400,
+    "basePowerDraw": 1.0,
+    "breakage": 80,
+    "itemCapacity": 15,
+    "cooldownNormal": 50.5,
+    "cooldownLiquid": 65.2,
+    "cooldownBrokenBase":60.0,
+    "category": "effect",
+    "requirements": [
+
+        { "item": "furew", "amount": 1 }
+        
+    ],
+    "consumes": {
+		"power": 20.0,
+		"items": {
+			"items": [ 
+			    
+			    { "item": "phase-fabric", "amount": 1 }
+			    
+			    ],
+			"booster": true
+        }
+	},
+    "research": "force-projector"
+}

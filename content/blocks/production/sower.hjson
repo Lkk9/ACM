@@ -1,0 +1,33 @@
+
+name: "sower"
+description: "sifts sand and hatches scrap"
+size: 2
+health: 50
+category: crafting
+hasPower: true
+hasLiquids: true
+hasItems: true
+itemCapacity: 15
+liquidCapacity: 120
+craftTime: 80
+consumes: {
+items: {
+		items: [
+			sand/2
+			lead/1
+			copper/2
+		]
+	}
+	liquid: {
+		liquid: water
+		amount: 0.1
+	}
+	power: 0.6
+}
+outputItem: scrap/6
+requirements: [
+	copper/80
+	iron-ingot/20
+	graphite/35
+]
+research: pulverizer

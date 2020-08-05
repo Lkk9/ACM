@@ -1,0 +1,16 @@
+type: BufferedItemBridge
+name: "plastanium bridge conveyor"
+
+range: 8
+speed: 80
+bufferCapacity: 20
+itemCapacity: 2
+category: distribution
+hasItems: true
+requirements: [
+	plastanium/5
+    metaglass/5
+    lead/8
+    copper/8
+]
+research: bridge-conveyor

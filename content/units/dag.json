@@ -1,0 +1,28 @@
+{
+	"type": "groundUnit",
+	"name": "dag",
+	"description": "ground mini unit",
+	"speed": 0.09,
+	"flying": false,
+	"mass": 2,
+	"weaponOffSetY": 93,
+	"engineSize": 0.5,
+	"health": 65,
+	"range": 80,
+	"weapon": {
+		"name": "dag-equip",
+		"reload": 40,
+		"recoil": 1.4,
+		"shots": 1,
+		"width": -1,
+		"alternate": false,
+		"bullet": {
+		    "type": "BasicBulletType",
+		    "hitEffect": "hitFuse",
+		    "lifetime": 80,
+		    "speed": 3,
+		    "damage": 5
+		    
+		}
+	}
+}

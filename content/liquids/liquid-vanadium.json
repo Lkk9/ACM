@@ -1,0 +1,10 @@
+{
+	"name": "Liquid vanadium",
+	"description": "get from iron",
+	"temperature": 0.9,
+	"flammability" : 0.5,
+	"explosiveness" : 0.2,
+	"flameColor" : #FF57731D,
+    "viscosity": 0.8,
+    "color": #FF57757D
+}

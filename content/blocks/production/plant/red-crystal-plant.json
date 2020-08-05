@@ -1,0 +1,30 @@
+{
+    "type": "GenericCrafter",
+    "name": "red crystal plant",
+    "description": "creates red crystal",
+    "outputItem": {"item": "red-crystal", "amount": 1},
+    "size": 2,
+    "hasPower": true,
+    "hasItems": true,
+    "itemCapacity": 10,
+    "craftTime": 100,
+    "updateEffect": "redgeneratespark",
+    "consumes": {
+        "power": 0.2,
+        "items": {
+            "items": [
+                {"item": "copper", "amount": 1 },
+                {"item": "blast-compound", "amount": 1 }
+                ]
+        }
+    },
+    "requirements": [
+        {"item": "graphite", "amount": 50 },
+        {"item": "iron-ingot", "amount": 100 },
+        {"item": "phase-fabric", "amount": 80 }
+        ],
+        "category": "crafting",
+        "research": "alloy-smelter",
+        "idleSounds": "respawning",
+        "idleSoundVolume": 0.05
+}

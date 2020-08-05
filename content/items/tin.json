@@ -1,0 +1,9 @@
+{
+    "type": "material",
+    "name": "tin",
+    "description": "tin - a plastic, malleable and fusible shiny metal of silver-white color.",
+    "hardness": 3,
+    "cost": 2.0,
+    "color":"#FFA9A9A9",
+    "tier": 2
+}

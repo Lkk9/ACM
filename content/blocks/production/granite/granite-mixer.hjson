@@ -1,0 +1,36 @@
+type: GenericSmelter
+name: "granite mixer"
+description: "produces granite from coooer , lead , sand and graphite"
+itemCapacity: 20
+outputItem: {
+  item: granite
+  amount: 1
+}
+size: 3
+hasPower: true
+hasLiquids: false
+craftTime: 110
+updateEffect: formsmoke
+consumes: {
+	items: {
+		items: [
+			copper/1
+			lead/1
+            graphite/2
+			sand/1
+		]
+	}
+	power: 1.3
+}
+requirements: [
+  titanium/50
+  iron-ingot/25
+  copper/80
+  lithium/30
+]
+category: crafting
+research: lead-factory
+idleSound: respawning
+idleSoundVolume: 0.03
+
+

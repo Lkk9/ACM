@@ -1,0 +1,48 @@
+{
+	"type": "flyingUnit",
+	"name": "furew unit",
+	"description": "the most powerful flying unit",
+	"speed": 0.09,
+	"flying": true,
+	"health": 100100,
+    "mass": 19,
+	"range": 500,
+	"weapon": {
+		"name": "fur-gun",
+		"damage": 900,
+		"shake": 1,
+		"reload": 100,
+		"alternate": false,
+		"bullet": {
+		    "type": "MissileBulletType",
+		    "lifetime": 10000,
+		    "speed": 5,
+		    "splashDamageRadius": 50,
+		    "splashDamage": 50,
+		    "frontColor": "fffb01",
+		    "backColor": "ff4fb0",
+		    "homingPower": 50,
+		    "homingRange": 20,
+		    "fragBullets": 10,
+		    "fragBullet": {
+		        "type": "MissileBulletType",
+		    "lifetime": 10,
+		    "speed": 0.3,
+		    "splashDamageRadius": 50,
+		    "splashDamage": 50,
+		    "frontColor": "fffb01",
+		    "backColor": "ff4fb0",
+		    "homingPower": 50,
+		    "homingRange": 5,
+		    "fragBullets": 10,
+		    "fragBullet": {
+		        "type": "liquidBulletType",
+		        "liquid": "slag",
+		        "lifetime": 100,
+		        "speed": 1,
+		        "damage": 2
+		    }
+		    }
+		}
+	}
+}

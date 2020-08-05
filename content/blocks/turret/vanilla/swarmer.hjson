@@ -1,0 +1,59 @@
+ammo:{
+    pyratite:missileExplosive
+    blast-compound:missileIncendiary
+    surge-alloy:missileSurge
+gilty: {
+        type:MissileBulletType
+	    ammoMultiplier: 5
+	    knockback: 1.2
+		speed: 4
+		damage: 19
+		homingPower: 1.9
+		homingRange: 100
+		bulletWidth: 8.5
+		bulletHeight: 8.5
+		backColor: f23535
+		frontColor: ff8985
+		shootEffect: shootSmall
+		smokeEffect: shootSmallSmoke
+		fragBullets: 1
+		fragBullet:{
+		type: MissileBulletType
+	    knockback: 1.2
+		speed: 4
+		damage: 19
+		homingPower: 1.9
+		homingRange: 100
+		bulletWidth: 8.5
+		bulletHeight: 8.5
+		backColor: f23535
+		frontColor: ff8985
+		fragBullets: 1
+		fragBullet:{
+		type: MissileBulletType
+	    knockback: 1.2
+		speed: 4
+		damage: 19
+		homingPower: 1.9
+		homingRange: 100
+		bulletWidth: 8.5
+		bulletHeight: 8.5
+		backColor: f23535
+		frontColor: ff8985
+		fragBullets: 1
+		fragBullet:{
+		type: MissileBulletType
+	    knockback: 1.2
+		speed: 4
+		damage: 19
+		homingPower: 1.9
+		homingRange: 100
+		bulletWidth: 8.5
+		bulletHeight: 8.5
+		backColor: f23535
+		frontColor: ff8985
+		}
+		}
+		}
+		}
+}

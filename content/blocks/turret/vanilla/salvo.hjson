@@ -1,0 +1,33 @@
+ammo:{
+	copper: standardCopper
+	graphite: standardDense
+	pyratite: standardIncendiary
+	silicon: standardHoming
+	thorium: standardThorium
+	debasite: {
+	    ammoMultiplier: 6
+	    knockback: 0.7
+		speed: 5.5
+		damage: 28
+		incendAmount: 1.3
+		incendSpread: 0.1
+		incendChance: 0.33
+		bulletWidth: 8
+		bulletHeight: 8
+		backColor: d62032
+		frontColor: 9e283d
+		shootEffect: shootSmall
+		smokeEffect: shootSmallSmoke
+		}
+	snow: {
+		speed: 5
+		damage: 1
+		status:freezing
+		bulletWidth: 14
+		bulletHeight: 8
+		backColor: f7f7f7
+		frontColor: f2f2f2
+		shootEffect: none
+		smokeEffect: none
+	}
+	}

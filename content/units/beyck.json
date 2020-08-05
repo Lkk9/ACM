@@ -1,0 +1,38 @@
+{
+    "type": "revenant",
+    "name": "beyck",
+    "health": 3800,
+    "mass": 60.0,
+    "speed": 0.08,
+	"hitsize": 40,
+	"hitsizeTile": 35,
+    "maxVelocity": 0.16,
+	"rotatespeed": 0.06,
+	"weaponOffsetY": 16,
+	"attackLength": 150.0,
+    "drag": 0.01,
+    "shootCone": 24.0,
+    "flying": true,
+    "engineOffset": 20,
+    "engineSize": 5,
+	"baseRotateSpeed": 0.05,
+    "weapon": {
+        "reload": 10.0,
+        "name": "beyck-equip",
+        "shots": 1,
+        "inaccuracy": 0,
+        "alternate": true,
+        "ejectEffect": "shellEjectSmall",
+        "shootSound": "shoot",
+        "bullet": {
+            "type": "BasicBulletType",
+            "bulletSprite": "bulletLE",
+			"speed": 5.3,
+			"damage": 100,
+			"bulletWidth": 10,
+			"bulletHeight": 10,
+			"frontColor": "#f3919c",
+			"backColor": "#d65c6a"
+		}
+    }
+}

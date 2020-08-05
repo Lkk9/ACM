@@ -1,0 +1,26 @@
+loadout: basscore
+startingItems: [
+   copper/1
+]
+defaultStartingItems: [
+    copper/1
+]
+launchPeriod: 5
+conditionWave: 20
+requirements: [
+  {
+    type: ZoneWave
+	zone: groundZero
+	wave: 10
+  }
+ 
+  {
+    type: Unlock
+	block: silicon-smelter
+  }
+]
+resources: [
+  
+]
+name: "nothing"
+description: "also nothing"

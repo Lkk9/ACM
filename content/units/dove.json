@@ -1,0 +1,23 @@
+{
+	"type": "flyingUnit",
+	"name": "dove",
+	"description": "flying unit",
+	"speed": 0.3,
+	"flying": true,
+	"health": 70,
+	"range": 170,
+	"weapon": {
+		"name": "dovegun",
+		"damage": 9,
+		"reload": 10,
+		"alternate": false,
+		"bullet": {
+			"speed": 12,
+			"damage": 9,
+			"bulletWidth": 6,
+			"bulletHeight": 9,
+			"frontColor": "f0e5a9",
+			"backColor": "dfaf66"
+		}
+	}
+}

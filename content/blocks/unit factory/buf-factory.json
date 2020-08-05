@@ -1,0 +1,26 @@
+{
+	"name": "buf Factory",
+	"description": "creates drones buf",
+	"type": "UnitFactory",
+	"unitType": "buf",
+	"size": 3,
+	"maxSpawn": 3,
+	"health" : 300,
+	"produceTime": 820,
+	"consumes": {
+		"power": 41.6666667,
+		"items": {
+			"items": [
+				{"item": "vanadium-ingot", "amount": 10},
+				{"item": "silicon", "amount": 100}
+			]
+		}
+	},
+	"category": "units",
+	"research": "titan-factory",
+	"requirements": [
+		{ "item": "iron-ingot", "amount": 400 },
+		{ "item": "tin-ingot", "amount": 200 },
+		{ "item": "battery", "amount": 30 }
+	]
+}

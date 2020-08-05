@@ -1,0 +1,31 @@
+{
+name: "train-mech"
+description: "electric mech"
+type: "Mech"
+flying: false
+speed: 1.7
+maxSpeed: 2.2
+health: 210
+drillPower: 6
+mineSpeed: 3.3
+buildPower: 1.2
+engineColor: "#ffffa1"
+itemCapacity: 20
+canHeal: false
+drawCell: true
+drawLight: true
+engineSize: 2.6
+weaponOffsetY: 1
+engineOffset: 5
+weapon: {
+    name: "train-mech-weapon"
+    bullet: "missileExplosive"
+    shots: 1
+    damage: 60
+    recoil: 3.0
+    alternate: true
+    reload: 57
+    range: 100
+    shootCone: 15
+    }
+}

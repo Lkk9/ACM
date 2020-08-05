@@ -1,0 +1,46 @@
+{
+	"type": "doubleTurret",
+	"name": "tapple",
+	"description": "medium-power turret, affects ground units",
+	"targetAir": "false",
+	"health": 800,
+	"size": 2,
+	"heatColor": "#ff991d",
+	"recoil" : 2,
+	"reload": 8,
+	"shoots": 20,
+	"range": 300,
+	"ammoUseEffect": "shellEjectSmall",
+	"inaccuracy": 5,
+	"rotatespeed": 15,
+	"ammo": {
+		"graphite": {
+			"speed": 8.0,
+			"damage": 5,
+			"reloadMultiplier": 0.7,
+			"bulletWidth": 7.0,
+			"bulletHeight": 7.0,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"ammoMultiplier": 2
+		},
+		"silicon": {
+			"speed": 7.5,
+			"damage": 6,
+			"reloadMultiplier": 0.7,
+			"bulletWidth": 8.0,
+			"bulletHeight": 8.0,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"ammoMultiplier": 3,
+			"homingRange": 10,
+			"homingPower": 6
+		}
+	},
+	"requirements": [
+		{ "item": "bronze", "amount": 70 },
+		{ "item": "lead", "amount": 700 }
+	],
+	"category": "turret",
+	"research": "salvo"
+}

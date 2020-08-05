@@ -1,0 +1,40 @@
+{
+    "type": "powerTurret",
+    "name": "woc",
+    "description": "small turret to protect against weak enemies",
+    "size": 1,
+    "hasPower": true,
+    "health": 210,
+    "shootEffect": "fireSmoke",
+    "range": 100,
+    "reload": 8,
+    "recoil": 1,
+    "shootShake": 0,
+    "heatColor": "fffb99",
+    "powerUse": 0.6,
+    "shootType":{
+        "type": "BasicBulletType",
+        "bulletSprite": "bulletQ",
+        "lifeTime": 190,
+        "speed": 5.5,
+        "frontColor": "f9f001",
+        "status": "burning",
+        "backColor": "f9bff1",
+        "fragBullets": 1,
+        "fragBullet": {
+            "type":"BasicBulletType",
+            "lifeTime": 10,
+            "speed": 3,
+            "frontColor": "f9f001",
+            "backColor": "f9bff1",
+            "damage": 1
+            }
+    },
+    "requirements":[
+        {"item": "lead", "amount": 10},
+        { "item": "graphite", "amount": 3 },
+        { "item": "silicon", "amount": 1 }
+        ],
+        "category": "turret",
+        "research": "duo"
+}

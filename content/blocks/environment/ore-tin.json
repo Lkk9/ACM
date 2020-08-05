@@ -1,0 +1,7 @@
+{
+    "type": "OreBlock",
+    "itemDrop": "tin",
+	"oreDefault": true,
+	"oreScale": 23.89,
+	"oreThreshold": 0.823
+}

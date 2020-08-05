@@ -1,0 +1,7 @@
+
+type: resource
+name: debasite
+hardness: 5
+explosiveness: 1.6
+flammability: 1.8
+color: eb6a6a

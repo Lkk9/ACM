@@ -1,0 +1,21 @@
+type: burnerGenerator
+name: induction generator
+description: produces energy from flammable items
+size: 2
+hasPower: true
+hasItems: true
+powerProduction: 3.16666667
+
+miItemEfficiency: 0.3
+itemDuration: 69
+minLiquidEfficiency: 0.3
+maxLiquidEfficiecy: 0.4
+
+requirements: [
+  lead/30
+  copper/45
+  iron-ingot/20
+]
+baseExplosiveness: 6
+category: power
+research:combustion-generator

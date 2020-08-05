@@ -1,0 +1,17 @@
+type: LightBlock
+localizedName: special illuminator
+description: large illuminator
+radius: 330
+size:2
+hasPower: true
+consumes:{
+    power: 0.2
+}
+health: 230
+category: effect
+requirements: [
+  lead/200
+  graphite/40
+  titanium/30
+]
+buildVisibility: lightingOnly

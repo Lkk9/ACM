@@ -1,0 +1,68 @@
+{
+	"type": "doubleTurret",
+	"name": "pinetapple",
+	"description": "short-range fast turret. medium damage",
+	"targetAir": "true",
+	"health": 800,
+	"size": 2,
+	"recoil" : 1,
+	"reload": 1,
+	"range": 120,
+	"ammoUseEffect": "shellEjectSmall",
+	"inaccuracy": 7,
+	"rotatespeed": 20,
+	"ammo": {
+		"copper": {
+			"speed": 7.0,
+			"damage": 2.5,
+			"reloadMultiplier": 5,
+			"bulletWidth": 6.0,
+			"bulletHeight": 6.0,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"ammoMultiplier": 1
+		},
+		"silicon": {
+			"speed": 7.0,
+			"damage": 4,
+			"reloadMultiplier": 5,
+			"bulletWidth": 6.5,
+			"bulletHeight": 6.0,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"ammoMultiplier": 3,
+			"homingRange": 30,
+			"homingPower": 9
+		},
+		
+		"debasite":{
+	    "ammoMultiplier": 10,
+	    "knockback": 1,
+		"speed": 7.5,
+		"damage": 6,
+		"incendAmount": 1.3,
+		"incendSpread": 0.1,
+		"incendChance": 0.33,
+		"bulletWidth": 7.4,
+		"bulletHeight": 7.4,
+		"backColor": "#d62032",
+		"frontColor": "#9e283d",
+		"shootEffect": "shootSmall",
+		"smokeEffect": "shootSmallSmoke",
+		"fragBullets": 3,
+		"fragBullet":{
+		"type": "BasicBulletType",
+		"speed": 6.8,
+		"damage": 3,
+		"backColor": "#ffc5c5",
+		"frontColor": "#fffcece"
+		}
+		}
+	},
+	"requirements": [
+		{ "item": "tin-ingot", "amount": 50 },
+		{ "item": "lead", "amount": 600 }
+	],
+	"category": "turret",
+	"research": "salvo"
+}

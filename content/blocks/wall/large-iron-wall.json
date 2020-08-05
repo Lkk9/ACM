@@ -1,0 +1,12 @@
+{
+    "name": "large iron wall",
+    "description": "the iron wall is slightly stronger in strength than large tin wall",
+    "type": "Wall",
+    "health": 2690,
+    "size": 2,
+    "requirements": [
+        { "item": "iron", "amount": 31 }
+        ],
+        "category": "defense",
+        "research": "iron-wall"
+}

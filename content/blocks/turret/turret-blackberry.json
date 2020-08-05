@@ -1,0 +1,38 @@
+{
+	"type": "doubleTurret",
+	"name": "blackberry",
+	"description": " fast turret. medium damage",
+	"targetAir": "true",
+	"targetGround": "false",
+	"health": 1000,
+	"size": 3,
+	"recoil" : 0,
+	"reload": 2.1,
+	"range": 300,
+	"ammoUseEffect": "shellEjectSmall",
+	"inaccuracy": 3,
+	"rotatespeed": 18,
+	"ammo": {
+	    "scrap": "flakScrap",
+	    "lead": "flakLead",
+		"metaglass": "flakGlass",
+		"tin": {
+		    "type": "flakBulletType",
+			"speed": 8.0,
+			"damage": 3,
+			"reloadMultiplier": 5,
+			"bulletWidth": 8.0,
+			"bulletHeight": 8.0,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"ammoMultiplier": 4
+		} 
+	},  
+	"requirements": [
+		{ "item": "tin-ingot", "amount": 150 },
+		{ "item": "iron-ingot", "amount": 100 },
+		{ "item": "copper" , "amount": 230 }
+	],
+	"category": "turret",
+	"research": "salvo"
+}

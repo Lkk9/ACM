@@ -1,0 +1,9 @@
+{
+    "type": "material",
+    "name": "nor",
+    "description": "almost useless item ",
+    "hardness": 10000,
+    "cost": 2.0,
+    "color":"#a89db6",
+    "tier": 2
+}

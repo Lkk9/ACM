@@ -1,0 +1,29 @@
+{
+	"type": "GenericCrafter",
+	"name": "crystal melter",
+	"description": "gives out crystal water from multi crystal",
+	"liquidCapacity": 30,
+	"outputLiquid": {"liquid": "crystal-water", "amount": 5},
+	"size": 1,
+	"hasPower": true,
+	"hasLiquids": true,
+	"craftTime": 100,
+	"health" : 80,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 3.6,
+		"items": {
+			"items": [
+				{ "item": "multi-crystal", "amount": 1 }
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "iron-ingot", "amount": 60 },
+		{ "item": "vort", "amount": 10 }
+	],
+	"category": "crafting",
+	"research": "melter",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.2
+}

@@ -1,0 +1,24 @@
+name: "plastanium drill"
+//description: " 
+size: 4
+category: production
+tier: 5
+drillTime: 550
+drawMineItem: false
+liquidBoostIntensity: 2.43
+health: 450
+consumes: {
+	liquid: {
+		liquid: oil
+		amount: 0.09
+		booster: true
+		optional: true
+	}
+}
+requirements: [
+	plastanium/80
+	copper/240
+	silicon/70
+	thorium/50
+]
+research: duo

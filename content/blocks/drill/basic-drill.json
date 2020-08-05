@@ -1,0 +1,31 @@
+{
+    "type": "separator",
+    "name": "basic drill",
+    "description": "  ",
+        "results": [
+            
+            {"item": "copper", "amount": 1},
+            {"item": "lead", "amount": 1 }
+
+            ],
+    "size": 2,
+    "hasPower": true,
+    "hasItems": true,
+    "hasLiquids": true,
+    "itemCapacity": 5,
+    "craftTime": 417,
+    "updateEffect": "smeltsmoke",
+    "consumes": {
+        "power": 0.2
+    },
+    "requirements": [
+        {"item": "graphite", "amount": 5 },
+        {"item": "titanium", "amount": 4},
+        {"item": "iron", "amount": 6 },
+        {"item": "tin", "amount": 6 }
+        ],
+        "category": "production",
+        "alwaysUnlocked": true,
+        "idleSounds": "machine",
+        "idleSoundVolume": 0.09
+}

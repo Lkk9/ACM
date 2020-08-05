@@ -1,0 +1,9 @@
+{
+    "type": "resource",
+    "name": "green crystal",
+    "description": "valuable, hard to reach metal",
+    "hardness": 10,
+    "cost": 2.0,
+    "color":"#44e46e",
+    "tier": 2
+}

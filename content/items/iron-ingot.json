@@ -1,0 +1,9 @@
+{
+    "type": "material",
+    "name": "iron-ingot",
+    "description": "processed iron",
+    "hardness": 4,
+    "cost": 2.0,
+    "color":"#FF888888",
+    "tier": 2
+}

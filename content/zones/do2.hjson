@@ -1,0 +1,24 @@
+name: empty edges
+description: on this map it will be difficult to survive due to the small amount of resources in the beginning (also the map has a full preface, who wants to read, write to the author in discodr)
+startingItems: [
+    lead/30
+]
+alwaysUnlocked: false
+resources: [
+  coal
+  scrap
+  thorium
+]
+launchPeriod: 5
+defaultStartingItems: [
+    copper/10
+]
+requirements: [
+
+  {
+    type: ZoneWave
+    zone: groundZero
+    wave: 15
+  }
+  
+]

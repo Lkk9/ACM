@@ -1,0 +1,10 @@
+{
+	"name": "crystal water",
+	"description": "after remelting the multi crystal and cooling it, this liquid is obtained",
+	"temperature": 0,
+	"flammability" : 0,
+	"explosiveness" : 0.1,
+	"flameColor" : "#9c7575",
+    "viscosity": 0.2,
+    "color": "#7d7c7c"
+}

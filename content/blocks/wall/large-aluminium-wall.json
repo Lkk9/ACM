@@ -1,0 +1,12 @@
+{
+    "name": "large aluminium wall",
+    "description": "wear-resistant wall, more massive version of the aluminum wall",
+    "type": "Wall",
+    "health": 2960,
+    "size": 2,
+    "requirements": [
+        { "item": "aluminium", "amount": 27 }
+        ],
+        "category": "defense",
+        "research": "large-tin-wall"
+}

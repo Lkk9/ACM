@@ -1,0 +1,42 @@
+
+name: norium setter
+description: creates an alloy of surge alloy , gilty alloy and vort
+itemCapacity: 10
+outputItem: {
+  item: nor
+  amount: 1
+}
+size: 5
+hasPower: false
+hasLiquids: false
+craftTime: 320
+updateEffect:generatespark
+consumes: {
+	items: {
+		items: [
+			surge-alloy/1
+			gilty/1
+			vort/1
+			
+		]
+	}
+}
+requirements: [
+  iron-ingot/870
+  tin-ingot/760
+  bronze/330
+  copper/820
+  lead/790
+  titanium/560
+  lithium/460
+  aluminium/540
+  magnetite/10
+  graphite/210
+  silicon/210
+]
+category: crafting
+research: alloy-smelter
+idleSound: respawning
+idleSoundVolume: 0.03
+
+

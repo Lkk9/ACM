@@ -1,0 +1,9 @@
+{
+    "type": "material",
+    "name": "iron",
+    "description": "One of the most common metals in the earth’s crust",
+    "hardness": 2,
+    "cost": 2.0,
+    "color":"#D3D3D3",
+    "tier": 2
+}

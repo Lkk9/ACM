@@ -1,0 +1,9 @@
+{
+    "type": "resource",
+    "name": "red crystal",
+    "description": "valuable, hard to reach metal",
+    "hardness": 10,
+    "cost": 2.0,
+    "color":"#d93529",
+    "tier": 2
+}

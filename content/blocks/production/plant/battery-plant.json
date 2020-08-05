@@ -1,0 +1,29 @@
+{
+    "type": "GenericSmelter",
+    "name": "battery-plant",
+    "description": "produces lithium-ion batteries",
+    "outputItem": {"item": "battery", "amount": 1},
+    "size": 3,
+    "hasPower": true,
+    "hasItems": true,
+    "craftTime": 85,
+    "updateEffect": "reactorsmoke",
+    "consumes": {
+        "power": 1,
+        "items": {
+            "items": [
+                {"item": "lithium", "amount": 5 },
+                {"item": "tin", "amount": 2 },
+                {"item": "copper", "amount": 2 }
+                ]
+        }
+    },
+    "requirements": [
+        {"item": "graphite", "amount": 200 },
+        {"item": "lead", "amount": 400 }
+        ],
+        "category": "crafting",
+        "research": "graphite-press",
+        "idleSounds": "respawning",
+        "idleSoundVolume": 0.3
+}

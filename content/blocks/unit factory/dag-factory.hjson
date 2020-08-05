@@ -1,0 +1,25 @@
+type: UnitFactory
+localizedName: dag factory
+description: can create 2 small armed units 
+health: 140
+produceTime: 430
+maxSpawn: 2
+unitType: dag
+hasPower: true
+itemCapacity: 5
+consumes: {
+    power: 0.25
+  items: {
+    items: [
+    graphite/3
+    ]
+  }
+}
+size: 1
+category: units
+requirements: [
+  copper/30
+  graphite/10
+  lead/25
+]
+research: draug-factory

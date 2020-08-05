@@ -1,0 +1,26 @@
+type: UnitFactory
+localizedName: wriut factory
+description: can create 2 small armed flying units 
+health: 140
+produceTime: 300
+maxSpawn: 2
+unitType: wriut
+hasPower: true
+itemCapacity: 5
+consumes: {
+    power: 0.25
+  items: {
+    items: [
+    tin-ingot/2
+    ]
+  }
+}
+size: 1
+category: units
+requirements: [
+  copper/30
+  graphite/10
+  lead/25
+  titanium/20
+]
+research: wraith-factory

@@ -1,0 +1,39 @@
+type: GenericSmelter
+name: "gilty smelter"
+description: "hard-to-reach and difficult to create material can be produced on this smelter.you can create [#f23535]gilty"
+itemCapacity: 15
+outputItem: {
+  item:gilty
+  amount: 1
+}
+size: 4
+hasPower: true
+hasLiquids: true
+craftTime: 120
+updateEffect:generatespark
+consumes: {
+	items: {
+		items: [
+			surge-alloy/1
+			scrap/5
+			pyratite/2
+		]
+	}
+	power: 2.7
+	liquid:{
+	liquid:water
+	amount: 0.16666667
+	}
+}
+requirements: [
+  phase-fabric/20
+  copper/145
+  graphite/75
+  thorium/100
+]
+category: crafting
+research: alloy-smelter
+idleSound: respawning
+idleSoundVolume: 0.03
+
+

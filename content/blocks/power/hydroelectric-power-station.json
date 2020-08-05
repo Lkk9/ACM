@@ -1,0 +1,25 @@
+{
+    "type": "ThermalGenerator",
+    
+    "name": "hydroelectric power station",
+    "description": "generates energy from the flow of water, under the ice",
+    
+    "generateEffect": "freezing",
+    "attribute": "water",
+    
+    "powerProduction": 2.1,
+    
+    "size": 2,
+    "health": 640,
+    
+    "category": "power",
+    "research": "internal-combustion-generator",
+    
+    "requirements": [
+        
+        { "item": "iron-ingot", "amount": 180 },
+        { "item": "metaglass", "amount": 80 },
+        { "item": "aluminium", "amount": 100 }
+        
+        ]
+}

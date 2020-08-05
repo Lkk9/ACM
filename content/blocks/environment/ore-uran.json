@@ -1,0 +1,7 @@
+{
+    "type": "OreBlock",
+    "itemDrop": "uran",
+	"oreDefault": true,
+	"oreScale": 10.87,
+	"oreThreshold": 0.983
+}

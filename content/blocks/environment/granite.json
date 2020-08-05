@@ -1,0 +1,7 @@
+{
+	"name": "granite",
+	"type": "OreBlock",
+	"variants": 3,
+	"itemDrop": "granite",
+	"playerUnmineable": true
+}

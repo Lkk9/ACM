@@ -1,0 +1,38 @@
+type: GenericSmelter
+name: "uran kiln"
+description: "produces uran by smelting some resources"
+itemCapacity: 20
+outputItem: {
+  item:uran
+  amount: 1
+}
+size: 3
+hasPower: true
+hasLiquids: true
+craftTime: 120
+updateEffect: formsmoke
+consumes: {
+	items: {
+		items: [
+			thorium/7
+			coal/5
+		]
+	}
+	power: 1.25
+	liquid:{
+	liquid: cryofluid
+	amount: 0.16666667
+	}
+}
+requirements: [
+  magnetite/8
+  silicon/70
+  gilty/50
+  tin-ingot/100
+]
+category: crafting
+research: alloy-smelter
+idleSound: respawning
+idleSoundVolume: 0.03
+
+

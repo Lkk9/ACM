@@ -1,0 +1,9 @@
+{
+    "type": "material",
+    "name": "aluminium",
+    "description": "The most common metal and the third most abundant chemical element in the earth's crust (after oxygen and silicon).",
+    "hardness": 3,
+    "cost": 2.0,
+    "color":"#FF707E8B",
+    "tier": 2
+}

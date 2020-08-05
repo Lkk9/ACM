@@ -1,0 +1,32 @@
+type: GenericCrafter
+name: "debasite conver"
+description: "capable of creating [#eb6a6a]debasite[#ffffff], a rather explosive resource"
+itemCapacity: 20
+outputItem: {
+  item:debasite
+  amount: 1
+}
+size: 2
+hasPower: true
+hasLiquids: true
+craftTime: 80
+updateEffect: none
+consumes: {
+	items: {
+		items: [
+			blast-compound/1
+			plastanium/3
+		]
+	}
+	power: 0.8
+}
+requirements: [
+  titanium/25
+  metaglass/30
+]
+category: crafting
+research: pyratite-mixer
+idleSound: respawning
+idleSoundVolume: 0.03
+
+

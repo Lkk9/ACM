@@ -1,0 +1,9 @@
+{
+    "type": "material",
+    "name": "lithium",
+    "description": "lithium It is a soft alkaline metal of silver-white color.",
+    "hardness": 3,
+    "cost": 2.0,
+    "color":"#FFCCCCCC",
+    "tier": 2
+}

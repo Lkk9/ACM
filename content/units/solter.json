@@ -1,0 +1,52 @@
+{
+	"type": "flyingUnit",
+	"name": "solter",
+	"description": "massive air unit ",
+	"speed": 0.05,
+	"flying": true,
+	"mass": 69,
+	"hitsize": 133.4,
+	"hitsizeTile": 133.3,
+	"weaponOffsetY": 4,
+	"health": 26000,
+	"range": 190,
+    "weapon": {
+        "name": "doodee5-equip",
+		"damage": 100,
+		"reload": 286,
+		"shots": 5,
+		"spacing": 0,
+		"inaccuracy": 0,
+		"recoil": 8,
+	//	"lengthRand": 9,
+		"shotDelay": 10,
+		"length": 36.2,
+		"width": 9.1,
+		"alternate": true,
+        "bullet": {
+            "type": "BasicBulletType",
+			"speed": 7.5,
+			"damage": 500,
+			"bulletWidth": 24,
+			"bulletHeight": 24,
+			"frontColor": "#8299ff",
+			"backColor": "#6d73d1",
+	    	"fragVelocityMax": 3
+			"fragBullets": 2,
+			"fragBullet": {
+			    "type": "BasicBulletType",
+			    "bulletSprite": "missile"
+		    	"frontColor": "#8299ff",
+		    	"backColor": "#6d73d1",
+		    	"damage": 50,
+				"bulletWidth": 8,
+		    	"bulletHeight": 8,
+		    	"homingRange": 440,
+		    	"homingPower": 25,
+		    	"status": "corroded",
+		    	"lifetime": 9999540,
+
+			}
+		}
+    }
+}

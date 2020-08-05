@@ -1,0 +1,33 @@
+{
+	"name": "overdrive ",
+	"description": "classic overdrive",
+	"type": "OverdriveProjector",
+	"health": 250,
+	"size": 1,
+	"range": 60,
+	"reload": 20,
+	"speedBoost": 1.12,
+	"speedBoostPhase": 1.1,
+	"phaseRangeBoost":10,
+	"useTime": 800,
+	"phase": "#720874",
+	"color": "#17C50B",
+	"healPercent": 20,
+	"consumes": {
+		"power": 2.3,
+		"items": {
+			"items": [ 
+			    { "item": "silicon", "amount": 1 }
+			    ],
+			"booster": true,
+			"optional": true
+		}
+	},
+	"requirements": [
+		{ "item": "graphite", "amount": 15},
+		{ "item": "silicon", "amount": 10 },
+		{ "item": "lead", "amount": 20 }
+	],
+	"category": "effect",
+	"research": "overdrive-projector"
+}

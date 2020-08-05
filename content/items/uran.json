@@ -1,0 +1,11 @@
+{
+    "type": "resource",
+    "name": "uran",
+    "description": "Uranium is a weakly radioactive element; it does not have stable isotopes.",
+    "hardness": 8,
+    "radioactivity": 1.7,
+    "explosiveness": 0.6,
+    "cost": 2.0,
+    "color": "#00ff28",
+    "tier": 2
+}

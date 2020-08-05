@@ -1,0 +1,9 @@
+{
+    "type": "material",
+    "name": "magnetite",
+    "description": "a widespread black mineral from the class of oxides, natural iron oxide (II, III).",
+    "hardness": 7,
+    "cost": 2.0,
+    "color":"fff477",
+    "tier": 2
+}

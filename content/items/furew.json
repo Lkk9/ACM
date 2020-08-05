@@ -1,0 +1,9 @@
+{
+    "type": "material",
+    "name": "furew",
+    "description": "",
+    "hardness": 9999,
+    "cost": 2.0,
+    "color":"#ff0f0f",
+    "tier": 2
+}
