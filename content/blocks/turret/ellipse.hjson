@@ -1,0 +1,20 @@
+type: powerTurret
+name: ellipse
+description: improved version of arc
+size: 2
+health: 960
+heatColor: dcdde3
+range: 135
+reload: 35
+recoil:1.1
+inaccuracy:0
+shots: 4
+powerUse: 6
+shootType: arc
+category:turret
+research: arc
+requirements:[
+    copper/140
+    lead/200
+    graphite/25
+]

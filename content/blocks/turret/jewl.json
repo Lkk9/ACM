@@ -1,6 +1,6 @@
 {
 	"type": "itemTurret",
-	"name": "gooseberry",
+	"name": "jewl",
 	"description": "powerful medium-range turret",
 	"targetAir": "true",
 	"health": 1000,

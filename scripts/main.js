@@ -4,11 +4,16 @@
 
 //power
 
+
 //mechs
 /*require("mechs/amod-mou-mech")*/
 
 //?
 require("shaders")
+
+//turrets
+require("blocks/turret/amod-xllo")
+require("blocks/turret/amod-we")
 
 //production
 require("blocks/production/amod-sower")

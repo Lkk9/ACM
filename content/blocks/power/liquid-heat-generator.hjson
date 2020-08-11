@@ -1,0 +1,27 @@
+type: SingleTypeGenerator
+name: "liquid heat generator"
+description: "consumes scrap metal, melts it down and uses it slag as fuel. a large amount of energy is spent on smelting, therefore the final energy is not large"
+size: 2
+category: power
+hasPower: true
+hasItems: true
+hasLiquids: false
+minItemEfficiency: .5
+minLiquidEfficiency: .5
+maxLiquidGenerate: .9
+itemCapacity: 20
+itemDuration: 125.5
+consumes: {
+    items:{
+        items:[
+            scrap/1
+        ]
+    }
+}
+powerProduction: 0.75
+requirements: [
+	copper/40
+	titanium/30
+	tin/15
+]
+research:induction-generator
