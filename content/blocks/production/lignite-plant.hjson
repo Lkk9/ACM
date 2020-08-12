@@ -4,7 +4,7 @@ description: squeezes sand with spore pods to obtain lignite
 itemCapacity: 20
 outputItem: {
   item: lignite
-  amount: 3
+  amount: 6
 }
 size: 3
 hasPower: true

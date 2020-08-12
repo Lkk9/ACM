@@ -1,6 +1,6 @@
-type: GenericSmelter
+
 name: "coal compressor"
-description: "compresses 2 brown coal into 1 bituminous coal"
+description: "compresses 4 lignites into 1 bituminous coal"
 itemCapacity: 15
 outputItem: {
   item: coal
@@ -15,7 +15,7 @@ consumes: {
 power: 0.24
 	items: {
 		items: [
-			brown-coal/2
+			lignite/2
 		]
 	}
 }

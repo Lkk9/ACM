@@ -1,5 +1,0 @@
-type: resource
-name:"brown coal"
-description: " combustible minerals, fossil coal of the 2nd stage of metamorphism (transition link between lignite and coal), formed from lignite  "
-flammability: 0.80
-color: "#7f5261"

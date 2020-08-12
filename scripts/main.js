@@ -21,6 +21,7 @@ require("blocks/production/amod-vort-manufactory")
 require("blocks/production/amod-norium-setter")
 require("blocks/production/amod-furew-ingot-factory")
 require("blocks/production/amod-lignite-plant")
+require("blocks/production/amod-coal-compressor")
 
 
 //drills
