@@ -12,8 +12,8 @@
 require("shaders")
 
 //turrets
-require("blocks/turret/amod-xllo")
-require("blocks/turret/amod-we")
+/*require("blocks/turret/amod-xllo")
+require("blocks/turret/amod-we")*/
 
 //production
 require("blocks/production/amod-sower")
