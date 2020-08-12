@@ -1,21 +1,7 @@
 const amodPlastaniumDrill = extendContent(Drill, "plastanium-drill", {
 	draw(tile){
 	    
-	    // rotate spinners * ~ 1.2 if drill has oil
-	  /*  let speedRot = 0
-	    update(tile){
-        if(tile.entity.liquids.total()>0){
-            let speedRot = 4.5
-        }else{
-          let  speedRot = 3.5
-        }
-    this.super$update(tile)
-	    }
-	    
-Draw.rect(rotatorRegion, tile.drawx(), tile.drawy(), entity.drillTime * rotateSpeed);
 
-	    
-	    */
         const speedRot = 3.6
 	    const len = 4.5
 	    
