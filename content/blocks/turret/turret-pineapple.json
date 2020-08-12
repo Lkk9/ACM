@@ -7,6 +7,7 @@
 	"size": 2,
 	"recoil" : 1,
 	"reload": 1,
+	"shotWidth": 3,
 	"range": 120,
 	"ammoUseEffect": "shellEjectSmall",
 	"inaccuracy": 7,

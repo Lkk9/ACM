@@ -8,6 +8,7 @@
 	"heatColor": "#ff991d",
 	"recoil" : 2,
 	"reload": 8,
+	"shotWidth": 2.9,
 	"shoots": 20,
 	"range": 300,
 	"ammoUseEffect": "shellEjectSmall",
