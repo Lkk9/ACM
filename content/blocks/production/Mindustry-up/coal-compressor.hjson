@@ -1,6 +1,6 @@
 
 name: "coal compressor"
-description: "compresses 4 lignites into 1 bituminous coal"
+description: "compresses 2 lignites into 1 bituminous coal"
 itemCapacity: 15
 outputItem: {
   item: coal
