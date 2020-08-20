@@ -11,7 +11,7 @@
 //?
 
 //turrets
-//require("blocks/production/amod-gomner-turret")
+require("blocks/turret/amod-ft")
 
 //production
 require("blocks/production/amod-sower")
