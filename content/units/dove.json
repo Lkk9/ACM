@@ -1,23 +1,52 @@
 {
-	"type": "flyingUnit",
+	"type": "groundUnit",
 	"name": "dove",
-	"description": "flying unit",
-	"speed": 0.3,
-	"flying": true,
-	"health": 70,
-	"range": 170,
+	"description": "ground unit",
+	"speed": 0.08,
+	"flying": false,
+	"mass": 14,
+	"hitsize": 6,
+	//"hitsizeTile": 7.5,
+	"weaponOffsetY": 0,
+	"health": 170,
+	"range": 40,
 	"weapon": {
-		"name": "dovegun",
-		"damage": 9,
-		"reload": 10,
-		"alternate": false,
+		"name": "duuti8-equip",
+		"reload": 54,
+		"shots": 3,
+		"spacing": 10,
+		"inaccuracy": 0,
+	//	"lengthRand": 9,
+		"shotDelay": 5,
+		"length": 6,
+		"width": 8.1,
+		"alternate": true,
 		"bullet": {
-			"speed": 12,
-			"damage": 9,
-			"bulletWidth": 6,
-			"bulletHeight": 9,
-			"frontColor": "f0e5a9",
-			"backColor": "dfaf66"
+		    "type": "basicBulletType",
+		    "hitEffect": "hitFuse",
+		    "lifetime": 40,
+		    "speed": 4,
+			"bulletWidth": 9,
+			"bulletHeight": 9.5,
+		    "damage": 20,
+		    "status": "shocked"
+		    "lightining": 2,
+		    "lightiningLength": 2
+		    
+		    "fragBullets": 5,
+		    "fragBullet": {
+			    "type": "liquidBulletType",
+		    "liquid": "water",
+		    "status": "wet",
+		    "hitEffect": "wet",
+		    "lifetime": 1,
+		    "speed": 1,
+		    "damage": 0
+		        
+		    
+		    }
+		    
+		    
 		}
 	}
 }

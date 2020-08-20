@@ -1,10 +1,10 @@
 {
+    "type": "mechPad"
     "name": "mou mech pad",
     "description": "transform into the mou mech",
-    "type": "MechPad",
     "health": 810,
-    "mech": "mou-mech",
-    "size": 3,
+    "mech": "mou",
+    "size": 2,
     "consumes": {
         "power": 2.3
     },

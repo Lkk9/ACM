@@ -1,0 +1,44 @@
+type: mech
+name: "mou mech"
+description: "slow but strong shooting mech"
+flying: true
+keepVelocity: true
+speed: 0.3
+maxSpeed: 5.4
+mass: 4.2
+drag: 0.04
+health: 570
+drillPower: 1.3
+mineSpeed: 2
+buildPower: 1
+itemCapacity: 120
+cellTrnsY: 1.2
+canHeal: false
+drawCell: true
+drawLight: true
+weaponOffsetY: 1
+engineColor: "#5c5e9e"
+engineOffset: 5
+weapon: {
+    bullet:{
+    type: "basicBulletType"
+    lifetime: 320
+    speed: 1.5
+    damage: 10
+	backColor: "#5c5e9e"
+	frontColor: "#a488eb"
+    bulletWidth: 12.0
+    bulletHeigth: 4.0
+    homingRange: 100
+    homingPower: 900
+    
+    }
+    shots: 1
+    spacing: 0
+    recoil: 2.0
+    alternate: true
+    damage: 10
+    reload: 9.5
+    range: 190
+    shootCone: 27
+    }

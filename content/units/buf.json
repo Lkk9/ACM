@@ -26,6 +26,8 @@
 		    "type": "BasicBulletType",
 		    "frontColor": "00ff00",
 		    "backColor": "11ff11",
+			"bulletWidth": 14,
+			"bulletHeight": 14,
 		    "hitEffect": "hitFuse",
 		    "lifetime": 40,
 		    "speed": 4,

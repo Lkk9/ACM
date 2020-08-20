@@ -5,13 +5,13 @@
 	"unitType": "dove",
 	"size": 2,
 	"health" : 280,
-	"maxSpawn": 30,
-	"produceTime": 290,
+	"maxSpawn": 3,
+	"produceTime": 390,
 	"consumes": {
-		"power": 0.4,
+		"power": 3.4,
 		"items": {
 			"items": [
-				{"item": "vanadium-ingot", "amount": 1},
+				{"item": "surge-alloy", "amount": 1},
 				{"item": "silicon", "amount": 10}
 			]
 		}
@@ -21,6 +21,7 @@
 	"requirements": [
 		{ "item": "iron-ingot", "amount": 90 },
 		{ "item": "tin-ingot", "amount": 50 },
-		{ "item": "battery", "amount": 3 }
+		{ "item": "battery", "amount": 3 },
+		{ "item": "surge-alloy" , "amount": 20}
 	]
 }

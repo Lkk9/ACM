@@ -1,0 +1,58 @@
+type: itemTurret
+name: pusher
+description: delays units, pushing them away
+size: 3
+health: 870
+range: 95
+targetAir:false
+reload: 159
+recoil: 4
+inaccuracy:0.1
+shots: 1
+ammo: {
+	graphite:{
+        ammoMultiplier: 1
+        reloadMultiplier: 1
+	    knockback: 80
+		speed: 2.2
+		damage: 0
+		bulletWidth: 18
+		bulletHeight: 10
+		shootEffect: shootSmall
+		smokeEffect: shootSmallSmoke
+		splashDamage: 120
+		splashDamageRadius: 50
+	}
+	metaglass:{
+        ammoMultiplier: 2
+	    knockback: 90
+		speed: 2.5
+		damage: 0
+		bulletWidth: 19
+		bulletHeight: 11
+		shootEffect: shootSmall
+		smokeEffect: shootSmallSmoke
+		splashDamage: 150
+		splashDamageRadius: 50
+		fragBullets: 5
+		fragBullet: {
+		    type: basicBulletType
+		    speed: 1.8
+		    damage: 0
+		    bulletWidth: 13
+	    	bulletHeight: 7
+	    	knockback: 20
+	  		splashDamage: 20
+	    	splashDamageRadius: 25
+		}
+	}
+}	
+category:turret
+research:duo
+requirements:[
+    phase-fabric/45
+    titanium/150
+    bronze/60
+    
+    
+]

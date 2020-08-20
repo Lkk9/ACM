@@ -2,19 +2,19 @@
 	"name": "overdrive ",
 	"description": "classic overdrive",
 	"type": "OverdriveProjector",
-	"health": 250,
+	"health": 40,
 	"size": 1,
-	"range": 60,
+	"range": 37.6293509,
 	"reload": 20,
-	"speedBoost": 1.12,
-	"speedBoostPhase": 1.1,
+	"speedBoost": 1.125,
+	"speedBoostPhase": 0.25,
 	"phaseRangeBoost":10,
 	"useTime": 800,
 	"phase": "#720874",
 	"color": "#17C50B",
 	"healPercent": 20,
 	"consumes": {
-		"power": 2.3,
+		"power": 0.7,
 		"items": {
 			"items": [ 
 			    { "item": "silicon", "amount": 1 }
