@@ -15,7 +15,8 @@
     "requirements": [
         
         {"item": "silicon", "amount": 55},
-        {"item": "lithium", "amount": 73}
+        {"item": "lithium", "amount": 73},
+        {"item": "battery", "amount": 5}
         
         ],
     

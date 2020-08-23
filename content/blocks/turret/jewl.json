@@ -30,9 +30,9 @@
 		}
 	},
 	"requirements": [
-		{ "item": "tin-ingot", "amount": 700 },
+		{ "item": "ferrotitanium", "amount": 700 },
 		{ "item": "magnetite", "amount": 5 },
-		{"item": "iron-ingot", "amount": 900},
+		{"item": "tin", "amount": 900},
 		{"item": "silicon", "amount": 500}
 	],
 	"category": "turret",

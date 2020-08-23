@@ -16,7 +16,7 @@
 		{ "item": "battery", "amount": 10 },
 		{ "item": "silicon", "amount": 70 },
 		{ "item": "titanium", "amount": 200 },
-		{ "item": "iron-ingot", "amount": 70 }
+		{ "item": "iron", "amount": 240 }
 	],
 	"category": "production",
 	"research": "laser-drill"

@@ -20,7 +20,7 @@
     },
     "requirements": [
         {"item": "graphite", "amount": 50 },
-        {"item": "iron-ingot", "amount": 100 },
+        {"item": "ferrotitanium", "amount": 100 },
         {"item": "phase-fabric", "amount": 80 }
         ],
         "category": "crafting",

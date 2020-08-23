@@ -25,7 +25,7 @@ liquid:{
 	power: 0.9
 }
 requirements: [
-  tin-ingot/90
+  iron/90
   graphite/60
   silicon/50
   titanium/80

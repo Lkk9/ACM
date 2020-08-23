@@ -23,8 +23,7 @@ consumes: {
 	power: 1.3
 }
 requirements: [
-  titanium/50
-  iron-ingot/25
+  ferrotitanium/50
   copper/80
   lithium/30
 ]

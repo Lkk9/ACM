@@ -19,7 +19,7 @@
 		}
 	},
 	"requirements": [
-		{ "item": "iron-ingot", "amount": 110 },
+		{ "item": "bronze", "amount": 110 },
 		{ "item": "graphite", "amount": 90 },
 		{ "item": "metaglass", "amount": 60 }
 	],

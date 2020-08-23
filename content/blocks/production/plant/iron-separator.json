@@ -17,12 +17,12 @@
     "consumes": {
         "power": 0.3,
         "liquid": {
-            "liquid":  "liquid-iron", "amount": 0.2
+            "liquid":  "liquid-iron", "amount": 0.025
         }
     },
     "requirements": [
-        {"item": "iron-ingot", "amount": 35 },
-        {"item": "tin-ingot", "amount": 35 },
+        {"item": "ferrotitanium", "amount": 35 },
+        {"item": "graphite", "amount": 35 },
         {"item": "bronze", "amount": 30 }
         ],
         "category": "crafting",

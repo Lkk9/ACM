@@ -1,0 +1,40 @@
+
+name: "ferrotitanium smelter"
+description: "remelts iron and titanium to create ferrotitanium"
+itemCapacity: 20
+outputItem: {
+  item: ferrotitanium
+  amount: 1
+}
+size: 2
+hasPower: true
+hasLiquid: true
+liquidCapacity: 30
+craftTime: 90
+consumes: {
+power: 1.1
+
+liquid:{
+    liquid: water
+    amount: 0.025
+}
+
+	items: {
+		items: [
+			iron/1
+			titanium/1
+		]
+	}
+}
+requirements: [
+  iron/30
+  tin/15
+  copper/40
+  graphite/10
+]
+category: crafting
+alwaysUnlocked: true
+idleSound: respawning
+idleSoundVolume: 0.03
+
+

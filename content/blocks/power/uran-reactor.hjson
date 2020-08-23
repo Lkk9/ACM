@@ -21,7 +21,7 @@ requirements: [
   metaglass/80
   silicon/60
   lithium/50
-  iron-ingot/100
+  ferrotitanium/100
 ]
 category: power
 research: internal-combustion-generator

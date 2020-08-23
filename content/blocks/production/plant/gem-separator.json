@@ -25,7 +25,7 @@
     },
     "requirements": [
         {"item": "aluminium", "amount": 120 },
-        {"item": "tin-ingot", "amount": 200 },
+        {"item": "ferrotitanium", "amount": 200 },
         {"item": "bronze", "amount": 90 },
         {"item": "lead", "amount": 160 },
         {"item": "vort", "amount": 15 }

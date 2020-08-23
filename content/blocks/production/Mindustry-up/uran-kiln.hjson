@@ -28,7 +28,7 @@ requirements: [
   magnetite/8
   silicon/70
   gilty/50
-  tin-ingot/100
+  ferrotitanium/100
 ]
 category: crafting
 research: alloy-smelter

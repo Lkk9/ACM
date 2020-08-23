@@ -12,6 +12,7 @@
     "reserch": "duo",
     "requirements": [
         {"item": "vanadium-ingot", "amount": 50},
-        {"item": "iron-ingot", "amount": 200}
+        {"item": "ferrotitanium", "amount": 200},
+        {"item": "tin", "amount": 200}
         ]
 }

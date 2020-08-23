@@ -1,0 +1,36 @@
+
+name: "scrap kiln"
+description: "remelts titanium , iron and tin to product scrap"
+itemCapacity: 20
+outputItem: {
+  item: scrap
+  amount: 10
+}
+size: 2
+hasPower: true
+craftTime: 80
+craftEffect: none
+consumes: {
+power: 0.65
+
+	items: {
+		items: [
+			iron/2
+			tin/2
+			titanium/1
+		]
+	}
+}
+requirements: [
+  titanium/55
+  tin/70
+  lead/80
+  iron/70
+  copper/80
+]
+category: crafting
+research: "kiln"
+idleSound: respawning
+idleSoundVolume: 0.03
+
+

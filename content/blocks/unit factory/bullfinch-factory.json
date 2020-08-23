@@ -18,8 +18,8 @@
 	"category": "units",
 	"research": "revenant-factory",
 	"requirements": [
-		{ "item": "iron-ingot", "amount": 170 },
-		{ "item": "tin-ingot", "amount": 170 },
+		{ "item": "ferrotitanium", "amount": 170 },
+		{ "item": "tin", "amount": 240 },
 		{ "item": "battery", "amount": 5 },
 		{ "item": "plastanium", "amount": 120 },
 		{ "item": "surge-alloy", "amount": 60 }

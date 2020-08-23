@@ -19,7 +19,7 @@
 		}
 	},
 	"requirements": [
-		{ "item": "iron-ingot", "amount": 50 },
+		{ "item": "ferrotitanium", "amount": 50 },
 		{ "item": "copper", "amount": 130 },
 		{ "item": "graphite", "amount": 20 }
 	],

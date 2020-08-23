@@ -61,7 +61,7 @@
 		}
 	},
 	"requirements": [
-		{ "item": "tin-ingot", "amount": 50 },
+		{ "item": "ferrotitanium", "amount": 50 },
 		{ "item": "lead", "amount": 600 }
 	],
 	"category": "turret",

@@ -12,7 +12,9 @@
     "reserch": "duo",
     "requirements": [
         {"item": "vanadium-ingot", "amount": 75},
-        {"item": "iron-ingot", "amount": 230},
+        {"item": "iron", "amount": 230},
+        {"item": "silicon", "amount": 80},
         {"item": "aluminium", "amount": 200 }
+        {"item": "copper", "amount": 430},
         ]
 }

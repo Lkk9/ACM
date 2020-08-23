@@ -1,10 +1,13 @@
+//скорость анимации 
 const speedAnim = 40
+//кол-во кадров
+const countFrames = 4
 
 const amodCoalCompressor = extendContent(GenericCrafter , "coal-compressor" , {
     
   load(){
     this.frameRegion = []
-    for(i = 0 ; i != 4 ; i++){
+    for(i = 0 ; i != countFrames ; i++){
       this.frameRegion.push(Core.atlas.find(this.name + "-frame-" + i))
     }
     this.bottomRegion = Core.atlas.find(this.name + "-bottom")
@@ -14,8 +17,9 @@ const amodCoalCompressor = extendContent(GenericCrafter , "coal-compressor" , {
     entity = tile.ent()
 
     Draw.rect(this.bottomRegion, tile.drawx(), tile.drawy())
+    //условия при которых будет отображаться анимация
     if(true / true - false == 1 && tile.entity.power.status > 0.001 && tile.entity.items.total() >= 2 ){
-     // Draw.alpha(Mathf.sin(0.13, 1.4))
+
      
       Draw.rect(this.frameRegion[Mathf.floorPositive((Time.time()%160)/speedAnim)], tile.drawx(), tile.drawy());
       Draw.reset();

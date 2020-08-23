@@ -102,7 +102,7 @@
 			"bulletShrink": 0,
 			"hitSize": 7,
 			"knockback": 0.63,
-			"damage": 82,
+			"damage": 49,
 			"splashDamage": 27,
 			"splashDamageRadius": 32,
 			"ammoMultiplier": 4
@@ -111,8 +111,9 @@
 	"requirements": [
 		{ "item": "metaglass", "amount": 80 },
 		{ "item": "graphite", "amount": 100 },
-		{ "item": "iron-ingot", "amount": 120 },
-		{ "item": "lithium", "amount": 90 }
+		{ "item": "ferrotitanium", "amount": 120 },
+		{ "item": "lithium", "amount": 90 },
+		{"item": "vort", "amount": 15}
 	],
 	"category": "turret",
 	"research": "salvo"

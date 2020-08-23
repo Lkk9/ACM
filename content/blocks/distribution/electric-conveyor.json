@@ -6,7 +6,7 @@
 		{"item": "battery", "amount": 1},
 		{"item": "copper", "amount": 3},
 		{"item": "lead", "amount": 3},
-		{"item": "tin-ingot", "amount": 2}
+		{"item": "tin", "amount": 2}
 	],
 	"category": "distribution",
 	"speed": 0.15,

@@ -24,7 +24,7 @@ requirements: [
   lithium/700
   battery/120
   gilty/250
-  iron-ingot/600
+  ferrotitanium/700
 ]
 category: power
 research: impact-reactor

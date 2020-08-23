@@ -19,8 +19,8 @@
 	"category": "units",
 	"research": "ghoul-factory",
 	"requirements": [
-		{ "item": "iron-ingot", "amount": 90 },
-		{ "item": "tin-ingot", "amount": 50 },
+		{ "item": "ferrotitanium", "amount": 90 },
+		{ "item": "silicon", "amount": 50 },
 		{ "item": "battery", "amount": 3 },
 		{ "item": "surge-alloy" , "amount": 20}
 	]

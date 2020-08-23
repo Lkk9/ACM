@@ -20,7 +20,7 @@
     },
     "requirements": [
         {"item": "silicon", "amount": 50 },
-        {"item": "tin-ingot", "amount": 100 },
+        {"item": "tin", "amount": 230 },
         {"item": "surge-alloy", "amount": 20 }
         ],
         "category": "crafting",

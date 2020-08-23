@@ -27,7 +27,7 @@ items: {
 outputItem: scrap/6
 requirements: [
 	copper/80
-	iron-ingot/20
+	ferrotitanium/20
 	graphite/35
 ]
 research: pulverizer

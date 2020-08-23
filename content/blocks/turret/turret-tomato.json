@@ -50,9 +50,9 @@
 		}
 	},
 	"requirements": [
-		{ "item": "tin-ingot", "amount": 500 },
+		{ "item": "tin", "amount": 500 },
 		{ "item": "bronze", "amount": 200 },
-		{"item": "iron-ingot", "amount": 400},
+		{"item": "ferrotitanium", "amount": 400},
 		{"item": "gilty", "amount": 50}
 	],
 	"category": "turret",

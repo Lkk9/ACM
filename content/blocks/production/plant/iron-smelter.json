@@ -3,25 +3,25 @@
 	"name": "iron smelter",
 	"description": "remelts iron into liquid iron",
 	"liquidCapacity": 100,
-	"outputLiquid": {"liquid": "liquid-iron", "amount": 5.0},
+	"outputLiquid": {"liquid": "liquid-iron", "amount": 2},
 	"size": 2,
 	"hasPower": true,
 	"hasLiquids": true,
-	"craftTime": 10,
+	"craftTime": 35,
 	"health" : 400,
 	"updateEffect": "smeltsmoke",
 	"consumes": {
-		"power": 4.2,
+		"power": 3.45,
 		"items": {
 			"items": [
-				{ "item": "iron", "amount": 3 }
+				{ "item": "iron", "amount": 1 }
 			]
 		}
 	},
 	"requirements": [
-		{ "item": "iron-ingot", "amount": 20 },
+		{ "item": "ferrotitanium", "amount": 20 },
 		{ "item": "lead", "amount": 50 },
-		{ "item": "titanium", "amount": 40 }
+		{ "item": "tin", "amount": 40 }
 	],
 	"category": "crafting",
 	"research": "melter",

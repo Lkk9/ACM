@@ -17,7 +17,8 @@
     },
     "requirements": [
         {"item": "graphite", "amount": 20 },
-        {"item": "iron-ingot", "amount": 10 }
+        {"item": "ferrotitanium", "amount": 10 },
+        {"item": "silicon", "amount": 15}
         ],
         "category": "crafting",
         "research": "iron-smelter",

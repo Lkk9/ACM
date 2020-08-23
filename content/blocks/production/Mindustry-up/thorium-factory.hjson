@@ -14,8 +14,10 @@ updateEffect: smeltsmoke
 consumes: {
 	items: {
 		items: [
-			titanium/3
-			spore-pod/2
+			graphite/1
+			titanium/1
+			scrap/2
+			
 		]
 	}
 	power: 0.916666667

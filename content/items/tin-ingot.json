@@ -1,9 +1,0 @@
-{
-    "type": "material",
-    "name": "tin-ingot",
-    "description": "processed tin",
-    "hardness": 4,
-    "cost": 2.0,
-    "color":"#FFCCCCCC",
-    "tier": 2
-}

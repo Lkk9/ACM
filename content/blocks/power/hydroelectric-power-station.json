@@ -17,7 +17,7 @@
     
     "requirements": [
         
-        { "item": "iron-ingot", "amount": 180 },
+        { "item": "ferrotitanium", "amount": 180 },
         { "item": "metaglass", "amount": 80 },
         { "item": "aluminium", "amount": 100 }
         

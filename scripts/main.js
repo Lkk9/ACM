@@ -20,6 +20,9 @@ require("blocks/production/amod-norium-setter")
 require("blocks/production/amod-furew-ingot-factory")
 require("blocks/production/amod-lignite-plant")
 require("blocks/production/amod-coal-compressor")
+require("blocks/production/amod-ferrotitanium-smelter")
+require("blocks/production/amod-iron-kiln")
+require("blocks/production/amod-scrap-kiln")
 
 
 //drills

@@ -20,7 +20,8 @@
     },
     "requirements": [
         {"item": "graphite", "amount": 200 },
-        {"item": "lead", "amount": 400 }
+        {"item": "lead", "amount": 400 },
+        {"item": "lithium", "amount": 50}
         ],
         "category": "crafting",
         "research": "graphite-press",

@@ -11,7 +11,7 @@ consumes: {
     power: 0.25
   items: {
     items: [
-    tin-ingot/2
+    graphite/3
     ]
   }
 }

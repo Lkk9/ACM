@@ -19,7 +19,7 @@
 		}
 	},
 	"requirements": [
-		{ "item": "iron-ingot", "amount": 60 },
+		{ "item": "ferrotitanium", "amount": 60 },
 		{ "item": "vort", "amount": 10 }
 	],
 	"category": "crafting",

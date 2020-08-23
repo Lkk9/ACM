@@ -29,8 +29,7 @@
 		} 
 	},  
 	"requirements": [
-		{ "item": "tin-ingot", "amount": 150 },
-		{ "item": "iron-ingot", "amount": 100 },
+		{ "item": "ferrotitanium", "amount": 150 },
 		{ "item": "copper" , "amount": 230 }
 	],
 	"category": "turret",

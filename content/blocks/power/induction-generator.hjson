@@ -14,7 +14,7 @@ maxLiquidEfficiecy: 0.4
 requirements: [
   lead/30
   copper/45
-  iron-ingot/20
+  ferrotitanium/20
 ]
 baseExplosiveness: 6
 category: power

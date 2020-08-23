@@ -5,7 +5,6 @@
     "size": 1,
     "hasPower": true,
     "health": 210,
-    "shootEffect": "fireSmoke",
     "range": 100,
     "reload": 8,
     "recoil": 1,
@@ -14,7 +13,6 @@
     "powerUse": 0.6,
     "shootType":{
         "type": "BasicBulletType",
-        "bulletSprite": "bulletQ",
         "lifeTime": 190,
         "speed": 5.5,
         "frontColor": "f9f001",

@@ -22,9 +22,10 @@ consumes: {
 	}
 }
 requirements: [
-  iron-ingot/870
-  tin-ingot/760
+  ferrotitanium/760
   bronze/330
+  tin/1000
+  iron/900
   copper/820
   lead/790
   titanium/560

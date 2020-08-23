@@ -19,8 +19,10 @@
 	"category": "units",
 	"research": "titan-factory",
 	"requirements": [
-		{ "item": "iron-ingot", "amount": 400 },
-		{ "item": "tin-ingot", "amount": 200 },
-		{ "item": "battery", "amount": 30 }
+		{ "item": "tin", "amount": 400 },
+		{ "item": "ferrotitanium", "amount": 200 },
+		{ "item": "battery", "amount": 30 },
+		{ "item": "plastanium", "amount": 75 }
+		
 	]
 }

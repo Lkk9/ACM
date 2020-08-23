@@ -7,8 +7,8 @@
 "health": 1000,
 "size": 3,
 "requirements": [
-{ "item": "iron-ingot", "amount": 120 },
-{ "item": "tin-ingot", "amount": 130 },
+{ "item": "ferrotitanium", "amount": 90 },
+{ "item": "tin", "amount": 130 },
 { "item": "copper", "amount": 400 },
 { "item": "bronze", "amount": 100}
 ],
