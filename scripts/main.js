@@ -1,15 +1,6 @@
-//distribution
-
-//require('blocks/distribution/compatible-junction')
-
-//power
-
-
-//mechs
-//require("mechs/amod-mou-mech")
-
-//?
-
+//units
+require("units/amod-helicopter")
+require("units/amod-military-helicopter")
 //turrets
 require("blocks/turret/amod-ft")
 

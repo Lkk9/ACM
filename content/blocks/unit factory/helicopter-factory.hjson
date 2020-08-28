@@ -1,0 +1,28 @@
+type: UnitFactory
+localizedName:helicopter landing pad
+description: can create 1 helicopter
+health: 200
+produceTime: 780
+maxSpawn: 2
+unitType: helicopter
+hasPower: true
+itemCapacity: 20
+consumes: {
+    power: 3.25
+  items: {
+    items: [
+    graphite/10
+    thorium/5
+    silicon/10
+    ]
+  }
+}
+size: 3
+category: units
+requirements: [
+  copper/300
+  graphite/140
+  phase-fabric/45
+  ferrotitanium/180
+]
+research: wraith-factory

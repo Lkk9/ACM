@@ -1,0 +1,39 @@
+{
+	"type": "HoverUnit",
+	"name": "military helicopter",
+	"speed": 0.08,
+	"flying": true,
+	"health": 3800,
+	"mass": 39,
+	"engineSize": 0,
+	"rotatespeed": 0.9,
+	"baseRotateSpeed": 0.1,
+	"range": 80,
+	"weapon": {
+		"name": "depp-70",
+		"damage": 45,
+		"reload": 135,
+		"shots": 6,
+		"spacing": 0,
+		"inaccuracy": 0,
+	//	"lengthRand": 9,
+		"shotDelay": 10,
+		"length": 4.9,
+	    "width": 13.67,
+		"alternate": true,
+		"bullet": {
+		    "type": "MissileBulletType",
+			"bulletWidth": 9.5,
+			"bulletHeight": 12.5,
+		    "frontColor": "ffe3c9",
+		    "backColor": "d4ad8e",
+		    "lifetime": 80,
+		    "speed": 4.8,
+		    "splashDamageRadius": 5,
+		    "splashDamage": 5,
+		    "damage": 35
+		    
+		}
+	
+	}
+}

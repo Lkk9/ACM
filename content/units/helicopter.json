@@ -1,0 +1,37 @@
+{
+	"type": "FlyingUnit",
+	"name": "helicopter"
+	"speed": 0.1,
+	"flying": true,
+	"health": 1400,
+	"engineSize": 0,
+	"engineOffset": 12,
+	"rotatespeed": 1,
+	"baseRotateSpeed": 0.3,
+	"range": 85,
+	"weapon": {
+		"name": "depp-35",
+		"damage": 18,
+		"reload": 10,
+		"shots": 1,
+		"spacing": 0,
+		"inaccuracy": 0,
+	//	"lengthRand": 9,
+		"shotDelay": 1,
+		"length": 5.84,
+		"width": 7.5,
+		"alternate": true,
+		"bullet": {
+		    "type": "BasicBulletType",
+			"bulletWidth": 7.5,
+			"bulletHeight": 9,
+		    "hitEffect": "hitFuse",
+		    "lifetime": 85,
+		    "speed": 7,
+		    "splashDamageRadius": 5,
+		    "damage": 18
+		    
+		}
+	
+	}
+}
