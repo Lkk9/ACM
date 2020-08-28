@@ -18,7 +18,6 @@
             {"item": "graphite", "amount": 15},
             {"item": "silicon", "amount": 15 },
             {"item": "feldspar", "amount":30 },
-            {"item": "quartz", "amount":10  },
             {"item": "flint", "amount": 35},
             {"item": "uran", "amount":5 },
             {"item": "magnetite", "amount": 8 }
